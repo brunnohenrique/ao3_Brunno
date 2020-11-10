@@ -15,18 +15,6 @@ ActiveRecord::Schema.define(version: 2020_11_10_025354) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "cars", force: :cascade do |t|
-    t.string "model"
-    t.string "manufacture"
-    t.string "license_plate"
-    t.string "model_year"
-    t.string "manufacture_year"
-    t.string "fuel_type"
-    t.string "color"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "users", force: :cascade do |t|
     t.string "name", default: "", null: false
     t.string "login", default: "", null: false
@@ -39,6 +27,18 @@ ActiveRecord::Schema.define(version: 2020_11_10_025354) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  end
+
+  create_table "vehicles", force: :cascade do |t|
+    t.string "model"
+    t.string "manufacture"
+    t.string "license_plate"
+    t.string "model_year"
+    t.string "manufacture_year"
+    t.string "fuel_type"
+    t.string "color"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end

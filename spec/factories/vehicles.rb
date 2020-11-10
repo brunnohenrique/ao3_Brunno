@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :car do
+  factory :vehicle do
     manufacture { Faker::Vehicle.make }
     model { Faker::Vehicle.model(make_of_model: manufacture) }
     license_plate { Faker::Vehicle.license_plate }

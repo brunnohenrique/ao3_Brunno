@@ -1,4 +1,4 @@
-<h1>Cars</h1>
+<h1>Vehicles</h1>
 
 <div class="table-responsive col-7">
   <table class="table table-hover">
@@ -17,19 +17,19 @@
     </thead>
 
     <tbody>
-      <% @cars.each_with_index do |car, i| %>
+      <% @vehicles.each_with_index do |vehicle, i| %>
         <tr>
           <th scope="row"><%= i+1 %></th>
-          <td><%= car.model %></td>
-          <td><%= car.manufacture %></td>
-          <td><%= car.license_plate %></td>
-          <td><%= car.model_year %></td>
-          <td><%= car.manufacture_year %></td>
-          <td><%= car.fuel_type %></td>
-          <td><%= car.color %></td>
-          <td><%= link_to 'Show', car, class: "btn btn-info btn-sm" %></td>
-          <td><%= link_to 'Edit', edit_car_path(car), class: "btn btn-warning btn-sm" %></td>
-          <td><%= link_to 'Destroy', car, {
+          <td><%= vehicle.model %></td>
+          <td><%= vehicle.manufacture %></td>
+          <td><%= vehicle.license_plate %></td>
+          <td><%= vehicle.model_year %></td>
+          <td><%= vehicle.manufacture_year %></td>
+          <td><%= vehicle.fuel_type %></td>
+          <td><%= vehicle.color %></td>
+          <td><%= link_to 'Show', vehicle, class: "btn btn-info btn-sm" %></td>
+          <td><%= link_to 'Edit', edit_vehicle_path(vehicle), class: "btn btn-warning btn-sm" %></td>
+          <td><%= link_to 'Destroy', vehicle, {
                                               method: :delete, 
                                               class: "btn btn-danger btn-sm", 
                                               data: { confirm: 'Are you sure?' }
@@ -39,5 +39,5 @@
       <% end %>
     </tbody>
   </table>
-  <%= link_to 'New Car', new_car_path, class: "btn btn-lg btn-info" %>
+  <%= link_to 'New Vehicle', new_vehicle_path, class: "btn btn-lg btn-info" %>
 </div>

@@ -1,4 +1,4 @@
-class Car < ApplicationRecord
+class Vehicle < ApplicationRecord
   validates :manufacture, presence: true
   validates :model, presence: true
   validates :license_plate, uniqueness: true, presence: true
