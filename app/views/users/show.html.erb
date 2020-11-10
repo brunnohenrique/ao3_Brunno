@@ -1,0 +1,10 @@
+<div class="h2"><%= @user.name %></div>
+<div><b>Login:</b> <%= @user.login %></div>
+<div><b>e-mail:</b> <%= @user.email %></div>
+
+<div class="row mt-2">
+  <div class="col-6">
+    <%= link_to "Back", users_path, class: "btn btn-secondary" %>
+    <%= link_to "Edit", edit_user_path(@user), class: "btn btn-primary" %>
+  </div>
+</div>
