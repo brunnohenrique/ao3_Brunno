@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users, :path_prefix => 'my'
+  resources :cars
   resources :users
+  devise_for :users, :path_prefix => 'my'
 
   devise_scope :user do
     authenticated :user do
