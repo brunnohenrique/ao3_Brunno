@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :users
   devise_for :users, :path_prefix => 'ao3'
 
+  root to: 'home#index'
+  
   devise_scope :user do
     authenticated :user do
       root to: 'vehicles#index', as: :authenticated_root

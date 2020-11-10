@@ -1,15 +1,18 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!
   before_action :set_user, only: [:show, :edit, :update, :destroy]
-  responders :flash, :http_cache
 
   def index
     @users = User.order(:name)
   end
 
-  def show; end
+  def show
+    respond_with(@user)
+  end
 
-  def edit; end
+  def edit
+    respond_with(@user)
+  end
   
   def new
     @user = User.new

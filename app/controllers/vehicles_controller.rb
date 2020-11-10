@@ -19,11 +19,11 @@ class VehiclesController < ApplicationController
   end
 
   def edit
+    respond_with(@vehicle)
   end
 
   def create
-    @vehicle = Vehicle.new(vehicle_params)
-    @vehicle.save
+    @vehicle = Vehicle.create(vehicle_params)
     respond_with(@vehicle)
   end
 
