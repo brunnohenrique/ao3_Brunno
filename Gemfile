@@ -18,6 +18,7 @@ gem 'jquery-rails'
 gem 'mini_racer'
 gem 'responders'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'fipe_api'
 
 group :development, :test do
   gem 'rspec-rails', '~> 4.0.1'
