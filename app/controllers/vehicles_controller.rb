@@ -23,6 +23,15 @@ class VehiclesController < ApplicationController
   end
 
   def create
+    result =  FipeService.call(
+                vehicle_params[:manufacture], 
+                vehicle_params[:model], 
+                vehicle_params[:model_year]
+              )
+    vehicle_params[:manufacture] = result.year.model.brand.name
+    vehicle_params[:model] = result.year.model.name
+    vehicle_params[:model_year] = result.year.id
+
     @vehicle = Vehicle.create(vehicle_params)
     respond_with(@vehicle)
   end
@@ -43,6 +52,6 @@ class VehiclesController < ApplicationController
     end
 
     def vehicle_params
-      params.require(:vehicle).permit(%i[model manufacture license_plate model_year manufacture_year fuel_type color])
+      params.require(:vehicle).permit(%i[manufacture model license_plate model_year manufacture_year fuel_type color])
     end
 end
