@@ -1,23 +1,25 @@
-<div class="col-6">
-  <%= simple_form_for(@vehicle) do |f| %>
-    <%= f.error_notification %>
-    <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+<div class="row">
+  <div class="col s12">
+    <%= simple_form_for(@vehicle) do |f| %>
+      <%= f.error_notification %>
+      <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
 
-    <div class="form-inputs">
-      <%= f.input :model %>
-      <%= f.input :manufacture %>
-      <%= f.input :license_plate %>
-      <%= f.input :model_year %>
-      <%= f.input :manufacture_year %>
-      <%= f.input :fuel_type %>
-      <%= f.input :color %>
-    </div>
-
-    <div class="row mt-2">
-      <div class="col-6">
-        <%= link_to "Back", vehicles_path, class:"btn btn-secondary" %>
-        <%= f.button :submit, class: "btn btn-primary" %>
+      <div>
+        <%= f.input :model %>
+        <%= f.input :manufacture %>
+        <%= f.input :license_plate %>
+        <%= f.input :model_year %>
+        <%= f.input :manufacture_year %>
+        <%= f.input :fuel_type %>
+        <%= f.input :color %>
       </div>
-    </div>
-  <% end %>
+
+      <div class="row mt-2">
+        <div class="col-6">
+          <%= link_to "Back", vehicles_path, class:"waves-effect waves-light btn" %>
+          <%= f.button :submit, class: "btn waves-effect waves-light" %>
+        </div>
+      </div>
+    <% end %>
+  </div>
 </div>
