@@ -1,0 +1,23 @@
+<div class="card-panel">
+  <h2><%= @vehicle.model %></h2>
+  <div><b>Manufacture:</b> <%= @vehicle.manufacture %></div>
+  <div><b>Plate:</b> <%= @vehicle.license_plate %></div>
+  <div><b>Model year:</b> <%= @vehicle.model_year %></div>
+  <div><b>Manufacture year:</b> <%= @vehicle.manufacture_year %></div>
+  <div><b>Fuel:</b> <%= @vehicle.fuel_type %></div>
+  <div><b>Color:</b> <%= @vehicle.color %></div>
+</div>
+
+<div class="card-panel">
+  <%= simple_form_for(@rent) do |f| %>
+    <%= f.input :cpf %>
+    <%= f.input :start_date, input_html: { class: "datepicker" } %>
+    <%= f.input :end_date, input_html: { class: "datepicker" } %>
+    <div class="row mt-2">
+      <div class="col-6">
+        <%= link_to "Back", root_path, class:"btn btn-secondary" %>
+        <%= f.button :submit, class: "btn waves-effect waves-light" %>
+      </div>
+    </div>
+  <% end %>
+</div>

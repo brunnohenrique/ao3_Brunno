@@ -11,6 +11,7 @@
       <th scope="col">Manufacture year</th>
       <th scope="col">Fuel type</th>
       <th scope="col">Color</th>
+      <th colspan="1" scope="col" class="text-center">actions</th>
     </tr>
   </thead>
 
@@ -25,6 +26,7 @@
         <td><%= vehicle.manufacture_year %></td>
         <td><%= vehicle.fuel_type %></td>
         <td><%= vehicle.color %></td>
+        <td><%= link_to 'Rent', new_rent_path(vehicle: vehicle), class: "waves-effect waves-light btn-small" %></td>
         </td>
       </tr>
     <% end %>
