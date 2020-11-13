@@ -1,8 +1,8 @@
 FactoryBot.define do
   factory :rent do
-    cpf { "MyString" }
-    start_date { "2020-11-13 15:26:14" }
-    end_date { "2020-11-13 15:26:14" }
-    vehicle { nil }
+    cpf { Faker::IDNumber.brazilian_id }
+    start_date { Faker::Date.between(from: 2.days.ago, to: Date.today)  }
+    end_date { Faker::Date.forward(days: 23) }
+    vehicle
   end
 end
