@@ -48,7 +48,7 @@ RSpec.describe "Vehicles", type: :request do
   describe 'POST #create' do
     subject { post vehicles_path, params: { vehicle: params } }
 
-    context 'with invalid params' do
+    context 'with invalid params', vcr: true do
       let(:params) { attributes_for(:vehicle, model: '') }
 
       it 'should not create an vehicle' do
@@ -56,11 +56,11 @@ RSpec.describe "Vehicles", type: :request do
       end
     end
 
-    context 'with valid params' do
+    context 'with valid params', vcr: true do
       let(:params) do
         {
-          model: 'Q5',
           manufacture: 'Audi',
+          model: 'Q5',
           license_plate: 'ABC-1234',
           model_year: '2017',
           manufacture_year: '2017',

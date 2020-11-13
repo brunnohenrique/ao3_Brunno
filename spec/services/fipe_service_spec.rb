@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe FipeService, type: :service do
   describe '#call' do
-    context 'when the params are correct' do
+    context 'when the params are correct', vcr: true do
       subject { described_class.call('Audi', 'Q5', '2017') }
 
       it 'return a api element' do
@@ -18,7 +18,7 @@ RSpec.describe FipeService, type: :service do
       end
     end
 
-    context 'when the params are incorrect' do
+    context 'when the params are incorrect', vcr: true do
       subject { described_class.call('Audi', 'audi', '2017') }
 
       it 'return a api element' do

@@ -1,0 +1,1460 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarTabelaDeReferencia
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.5; path=/
+      - __cfduid=de8f244f016d176b371acf7bbff36ab261605310144; expires=Sun, 13-Dec-20
+        23:29:04 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:04 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589f6dc0000cff0a318c000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=IkJbVaYYm8UgAB5oVLuMlNLtRjLPOtE%2Fq8GupHMd%2Fjn3AvJ2aYJn7CPi3UnmFrn%2B4RBfPAjvUQBm8vl2eSC7Ov5BEQNRnFyGU8Vbdm3kiWfKEVk%2FeA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45d15dc1cff0-GRU
+    body:
+      encoding: UTF-8
+      string: '[{"Codigo":262,"Mes":"novembro/2020 "},{"Codigo":261,"Mes":"outubro/2020
+        "},{"Codigo":260,"Mes":"setembro/2020 "},{"Codigo":259,"Mes":"agosto/2020
+        "},{"Codigo":258,"Mes":"julho/2020 "},{"Codigo":256,"Mes":"junho/2020 "},{"Codigo":255,"Mes":"maio/2020
+        "},{"Codigo":253,"Mes":"abril/2020 "},{"Codigo":252,"Mes":"março/2020 "},{"Codigo":251,"Mes":"fevereiro/2020
+        "},{"Codigo":250,"Mes":"janeiro/2020 "},{"Codigo":249,"Mes":"dezembro/2019
+        "},{"Codigo":248,"Mes":"novembro/2019 "},{"Codigo":247,"Mes":"outubro/2019
+        "},{"Codigo":246,"Mes":"setembro/2019 "},{"Codigo":245,"Mes":"agosto/2019
+        "},{"Codigo":244,"Mes":"julho/2019 "},{"Codigo":243,"Mes":"junho/2019 "},{"Codigo":242,"Mes":"maio/2019
+        "},{"Codigo":241,"Mes":"abril/2019 "},{"Codigo":239,"Mes":"março/2019 "},{"Codigo":238,"Mes":"fevereiro/2019
+        "},{"Codigo":237,"Mes":"janeiro/2019 "},{"Codigo":236,"Mes":"dezembro/2018
+        "},{"Codigo":235,"Mes":"novembro/2018 "},{"Codigo":234,"Mes":"outubro/2018
+        "},{"Codigo":233,"Mes":"setembro/2018 "},{"Codigo":232,"Mes":"agosto/2018
+        "},{"Codigo":231,"Mes":"julho/2018 "},{"Codigo":230,"Mes":"junho/2018 "},{"Codigo":229,"Mes":"maio/2018
+        "},{"Codigo":228,"Mes":"abril/2018 "},{"Codigo":227,"Mes":"março/2018 "},{"Codigo":226,"Mes":"fevereiro/2018
+        "},{"Codigo":225,"Mes":"janeiro/2018 "},{"Codigo":224,"Mes":"dezembro/2017
+        "},{"Codigo":219,"Mes":"novembro/2017 "},{"Codigo":218,"Mes":"outubro/2017
+        "},{"Codigo":217,"Mes":"setembro/2017 "},{"Codigo":216,"Mes":"agosto/2017
+        "},{"Codigo":215,"Mes":"julho/2017 "},{"Codigo":214,"Mes":"junho/2017 "},{"Codigo":212,"Mes":"maio/2017
+        "},{"Codigo":211,"Mes":"abril/2017 "},{"Codigo":207,"Mes":"março/2017 "},{"Codigo":205,"Mes":"fevereiro/2017
+        "},{"Codigo":202,"Mes":"janeiro/2017 "},{"Codigo":200,"Mes":"dezembro/2016
+        "},{"Codigo":198,"Mes":"novembro/2016 "},{"Codigo":197,"Mes":"outubro/2016
+        "},{"Codigo":196,"Mes":"setembro/2016 "},{"Codigo":194,"Mes":"agosto/2016
+        "},{"Codigo":193,"Mes":"julho/2016 "},{"Codigo":192,"Mes":"junho/2016 "},{"Codigo":191,"Mes":"maio/2016
+        "},{"Codigo":190,"Mes":"abril/2016 "},{"Codigo":189,"Mes":"março/2016 "},{"Codigo":188,"Mes":"fevereiro/2016
+        "},{"Codigo":187,"Mes":"janeiro/2016 "},{"Codigo":186,"Mes":"dezembro/2015
+        "},{"Codigo":185,"Mes":"novembro/2015 "},{"Codigo":184,"Mes":"outubro/2015
+        "},{"Codigo":183,"Mes":"setembro/2015 "},{"Codigo":182,"Mes":"agosto/2015
+        "},{"Codigo":181,"Mes":"julho/2015 "},{"Codigo":180,"Mes":"junho/2015 "},{"Codigo":179,"Mes":"maio/2015
+        "},{"Codigo":178,"Mes":"abril/2015 "},{"Codigo":176,"Mes":"março/2015 "},{"Codigo":175,"Mes":"fevereiro/2015
+        "},{"Codigo":174,"Mes":"janeiro/2015 "},{"Codigo":173,"Mes":"dezembro/2014
+        "},{"Codigo":172,"Mes":"novembro/2014 "},{"Codigo":171,"Mes":"outubro/2014
+        "},{"Codigo":170,"Mes":"setembro/2014 "},{"Codigo":169,"Mes":"agosto/2014
+        "},{"Codigo":168,"Mes":"julho/2014 "},{"Codigo":167,"Mes":"junho/2014 "},{"Codigo":166,"Mes":"maio/2014
+        "},{"Codigo":165,"Mes":"abril/2014 "},{"Codigo":164,"Mes":"março/2014 "},{"Codigo":163,"Mes":"fevereiro/2014
+        "},{"Codigo":162,"Mes":"janeiro/2014 "},{"Codigo":161,"Mes":"dezembro/2013
+        "},{"Codigo":160,"Mes":"novembro/2013 "},{"Codigo":159,"Mes":"outubro/2013
+        "},{"Codigo":158,"Mes":"setembro/2013 "},{"Codigo":157,"Mes":"agosto/2013
+        "},{"Codigo":156,"Mes":"julho/2013 "},{"Codigo":155,"Mes":"junho/2013 "},{"Codigo":154,"Mes":"maio/2013
+        "},{"Codigo":153,"Mes":"abril/2013 "},{"Codigo":152,"Mes":"março/2013 "},{"Codigo":151,"Mes":"fevereiro/2013
+        "},{"Codigo":150,"Mes":"janeiro/2013 "},{"Codigo":149,"Mes":"dezembro/2012
+        "},{"Codigo":148,"Mes":"novembro/2012 "},{"Codigo":147,"Mes":"outubro/2012
+        "},{"Codigo":146,"Mes":"setembro/2012 "},{"Codigo":145,"Mes":"agosto/2012
+        "},{"Codigo":144,"Mes":"julho/2012 "},{"Codigo":143,"Mes":"junho/2012 "},{"Codigo":142,"Mes":"maio/2012
+        "},{"Codigo":141,"Mes":"abril/2012 "},{"Codigo":140,"Mes":"março/2012 "},{"Codigo":139,"Mes":"fevereiro/2012
+        "},{"Codigo":138,"Mes":"janeiro/2012 "},{"Codigo":137,"Mes":"dezembro/2011
+        "},{"Codigo":136,"Mes":"novembro/2011 "},{"Codigo":135,"Mes":"outubro/2011
+        "},{"Codigo":134,"Mes":"setembro/2011 "},{"Codigo":133,"Mes":"agosto/2011
+        "},{"Codigo":132,"Mes":"julho/2011 "},{"Codigo":131,"Mes":"junho/2011 "},{"Codigo":130,"Mes":"maio/2011
+        "},{"Codigo":129,"Mes":"abril/2011 "},{"Codigo":128,"Mes":"março/2011 "},{"Codigo":127,"Mes":"fevereiro/2011
+        "},{"Codigo":126,"Mes":"janeiro/2011 "},{"Codigo":125,"Mes":"dezembro/2010
+        "},{"Codigo":124,"Mes":"novembro/2010 "},{"Codigo":123,"Mes":"outubro/2010
+        "},{"Codigo":122,"Mes":"setembro/2010 "},{"Codigo":121,"Mes":"agosto/2010
+        "},{"Codigo":120,"Mes":"julho/2010 "},{"Codigo":119,"Mes":"junho/2010 "},{"Codigo":118,"Mes":"maio/2010
+        "},{"Codigo":117,"Mes":"abril/2010 "},{"Codigo":61,"Mes":"março/2010 "},{"Codigo":60,"Mes":"fevereiro/2010
+        "},{"Codigo":59,"Mes":"janeiro/2010 "},{"Codigo":58,"Mes":"dezembro/2009 "},{"Codigo":57,"Mes":"novembro/2009
+        "},{"Codigo":56,"Mes":"outubro/2009 "},{"Codigo":55,"Mes":"setembro/2009 "},{"Codigo":54,"Mes":"agosto/2009
+        "},{"Codigo":53,"Mes":"julho/2009 "},{"Codigo":52,"Mes":"junho/2009 "},{"Codigo":51,"Mes":"maio/2009
+        "},{"Codigo":50,"Mes":"abril/2009 "},{"Codigo":49,"Mes":"março/2009 "},{"Codigo":48,"Mes":"fevereiro/2009
+        "},{"Codigo":47,"Mes":"janeiro/2009 "},{"Codigo":46,"Mes":"dezembro/2008 "},{"Codigo":45,"Mes":"novembro/2008
+        "},{"Codigo":44,"Mes":"outubro/2008 "},{"Codigo":43,"Mes":"setembro/2008 "},{"Codigo":42,"Mes":"agosto/2008
+        "},{"Codigo":41,"Mes":"julho/2008 "},{"Codigo":40,"Mes":"junho/2008 "},{"Codigo":38,"Mes":"maio/2008
+        "},{"Codigo":37,"Mes":"abril/2008 "},{"Codigo":36,"Mes":"março/2008 "},{"Codigo":35,"Mes":"fevereiro/2008
+        "},{"Codigo":34,"Mes":"janeiro/2008 "},{"Codigo":33,"Mes":"dezembro/2007 "},{"Codigo":32,"Mes":"novembro/2007
+        "},{"Codigo":31,"Mes":"outubro/2007 "},{"Codigo":30,"Mes":"setembro/2007 "},{"Codigo":29,"Mes":"agosto/2007
+        "},{"Codigo":28,"Mes":"julho/2007 "},{"Codigo":27,"Mes":"junho/2007 "},{"Codigo":26,"Mes":"maio/2007
+        "},{"Codigo":24,"Mes":"abril/2007 "},{"Codigo":23,"Mes":"março/2007 "},{"Codigo":21,"Mes":"fevereiro/2007
+        "},{"Codigo":20,"Mes":"janeiro/2007 "},{"Codigo":19,"Mes":"dezembro/2006 "},{"Codigo":18,"Mes":"novembro/2006
+        "},{"Codigo":17,"Mes":"outubro/2006 "},{"Codigo":16,"Mes":"setembro/2006 "},{"Codigo":15,"Mes":"agosto/2006
+        "},{"Codigo":14,"Mes":"julho/2006 "},{"Codigo":13,"Mes":"junho/2006 "},{"Codigo":12,"Mes":"maio/2006
+        "},{"Codigo":11,"Mes":"abril/2006 "},{"Codigo":10,"Mes":"março/2006 "},{"Codigo":9,"Mes":"fevereiro/2006
+        "},{"Codigo":8,"Mes":"janeiro/2006 "},{"Codigo":111,"Mes":"dezembro/2005 "},{"Codigo":6,"Mes":"novembro/2005
+        "},{"Codigo":2,"Mes":"outubro/2005 "},{"Codigo":1,"Mes":"setembro/2005 "},{"Codigo":7,"Mes":"agosto/2005
+        "},{"Codigo":25,"Mes":"julho/2005 "},{"Codigo":116,"Mes":"junho/2005 "},{"Codigo":115,"Mes":"maio/2005
+        "},{"Codigo":114,"Mes":"abril/2005 "},{"Codigo":113,"Mes":"março/2005 "},{"Codigo":112,"Mes":"fevereiro/2005
+        "},{"Codigo":110,"Mes":"janeiro/2005 "},{"Codigo":101,"Mes":"dezembro/2004
+        "},{"Codigo":100,"Mes":"novembro/2004 "},{"Codigo":99,"Mes":"outubro/2004
+        "},{"Codigo":109,"Mes":"setembro/2004 "},{"Codigo":108,"Mes":"agosto/2004
+        "},{"Codigo":107,"Mes":"julho/2004 "},{"Codigo":106,"Mes":"junho/2004 "},{"Codigo":105,"Mes":"maio/2004
+        "},{"Codigo":104,"Mes":"abril/2004 "},{"Codigo":103,"Mes":"março/2004 "},{"Codigo":102,"Mes":"fevereiro/2004
+        "},{"Codigo":98,"Mes":"janeiro/2004 "},{"Codigo":89,"Mes":"dezembro/2003 "},{"Codigo":88,"Mes":"novembro/2003
+        "},{"Codigo":87,"Mes":"outubro/2003 "},{"Codigo":97,"Mes":"setembro/2003 "},{"Codigo":96,"Mes":"agosto/2003
+        "},{"Codigo":95,"Mes":"julho/2003 "},{"Codigo":94,"Mes":"junho/2003 "},{"Codigo":93,"Mes":"maio/2003
+        "},{"Codigo":92,"Mes":"abril/2003 "},{"Codigo":91,"Mes":"março/2003 "},{"Codigo":90,"Mes":"fevereiro/2003
+        "},{"Codigo":86,"Mes":"janeiro/2003 "},{"Codigo":77,"Mes":"dezembro/2002 "},{"Codigo":76,"Mes":"novembro/2002
+        "},{"Codigo":75,"Mes":"outubro/2002 "},{"Codigo":85,"Mes":"setembro/2002 "},{"Codigo":84,"Mes":"agosto/2002
+        "},{"Codigo":83,"Mes":"julho/2002 "},{"Codigo":82,"Mes":"junho/2002 "},{"Codigo":81,"Mes":"maio/2002
+        "},{"Codigo":80,"Mes":"abril/2002 "},{"Codigo":79,"Mes":"março/2002 "},{"Codigo":78,"Mes":"fevereiro/2002
+        "},{"Codigo":74,"Mes":"janeiro/2002 "},{"Codigo":66,"Mes":"dezembro/2001 "},{"Codigo":65,"Mes":"novembro/2001
+        "},{"Codigo":64,"Mes":"outubro/2001 "},{"Codigo":73,"Mes":"setembro/2001 "},{"Codigo":72,"Mes":"agosto/2001
+        "},{"Codigo":71,"Mes":"julho/2001 "},{"Codigo":70,"Mes":"junho/2001 "},{"Codigo":69,"Mes":"maio/2001
+        "},{"Codigo":68,"Mes":"abril/2001 "},{"Codigo":67,"Mes":"março/2001 "},{"Codigo":63,"Mes":"fevereiro/2001
+        "},{"Codigo":62,"Mes":"janeiro/2001 "}]'
+  recorded_at: Fri, 13 Nov 2020 23:29:04 GMT
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarMarcas?codigoTabelaReferencia=262&codigoTipoVeiculo=1
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.5; path=/
+      - __cfduid=db319391637b3c1b5ae00666fecca4e4c1605310144; expires=Sun, 13-Dec-20
+        23:29:04 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:04 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589f7230000f71861b05000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=liqGRKqNd%2BNMECtHeAj9k9fs4AjTvoMauNUQWB3NK%2Btg%2B0DZgXdFz1SPILcs2DufCmGszB84nSsHlSYb%2B6LGBQC03ODzDRboSh6z8Nc9G7EKKYHkxA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45d1d8c8f718-GRU
+    body:
+      encoding: UTF-8
+      string: '[{"Label":"Acura","Value":"1"},{"Label":"Agrale","Value":"2"},{"Label":"Alfa
+        Romeo","Value":"3"},{"Label":"AM Gen","Value":"4"},{"Label":"Asia Motors","Value":"5"},{"Label":"ASTON
+        MARTIN","Value":"189"},{"Label":"Audi","Value":"6"},{"Label":"Baby","Value":"207"},{"Label":"BMW","Value":"7"},{"Label":"BRM","Value":"8"},{"Label":"Bugre","Value":"123"},{"Label":"Cadillac","Value":"10"},{"Label":"CBT
+        Jipe","Value":"11"},{"Label":"CHANA","Value":"136"},{"Label":"CHANGAN","Value":"182"},{"Label":"CHERY","Value":"161"},{"Label":"Chrysler","Value":"12"},{"Label":"Citroën","Value":"13"},{"Label":"Cross
+        Lander","Value":"14"},{"Label":"Daewoo","Value":"15"},{"Label":"Daihatsu","Value":"16"},{"Label":"Dodge","Value":"17"},{"Label":"EFFA","Value":"147"},{"Label":"Engesa","Value":"18"},{"Label":"Envemo","Value":"19"},{"Label":"Ferrari","Value":"20"},{"Label":"Fiat","Value":"21"},{"Label":"Fibravan","Value":"149"},{"Label":"Ford","Value":"22"},{"Label":"FOTON","Value":"190"},{"Label":"Fyber","Value":"170"},{"Label":"GEELY","Value":"199"},{"Label":"GM
+        - Chevrolet","Value":"23"},{"Label":"GREAT WALL","Value":"153"},{"Label":"Gurgel","Value":"24"},{"Label":"HAFEI","Value":"152"},{"Label":"HITECH
+        ELECTRIC","Value":"214"},{"Label":"Honda","Value":"25"},{"Label":"Hyundai","Value":"26"},{"Label":"Isuzu","Value":"27"},{"Label":"IVECO","Value":"208"},{"Label":"JAC","Value":"177"},{"Label":"Jaguar","Value":"28"},{"Label":"Jeep","Value":"29"},{"Label":"JINBEI","Value":"154"},{"Label":"JPX","Value":"30"},{"Label":"Kia
+        Motors","Value":"31"},{"Label":"Lada","Value":"32"},{"Label":"LAMBORGHINI","Value":"171"},{"Label":"Land
+        Rover","Value":"33"},{"Label":"Lexus","Value":"34"},{"Label":"LIFAN","Value":"168"},{"Label":"LOBINI","Value":"127"},{"Label":"Lotus","Value":"35"},{"Label":"Mahindra","Value":"140"},{"Label":"Maserati","Value":"36"},{"Label":"Matra","Value":"37"},{"Label":"Mazda","Value":"38"},{"Label":"Mclaren","Value":"211"},{"Label":"Mercedes-Benz","Value":"39"},{"Label":"Mercury","Value":"40"},{"Label":"MG","Value":"167"},{"Label":"MINI","Value":"156"},{"Label":"Mitsubishi","Value":"41"},{"Label":"Miura","Value":"42"},{"Label":"Nissan","Value":"43"},{"Label":"Peugeot","Value":"44"},{"Label":"Plymouth","Value":"45"},{"Label":"Pontiac","Value":"46"},{"Label":"Porsche","Value":"47"},{"Label":"RAM","Value":"185"},{"Label":"RELY","Value":"186"},{"Label":"Renault","Value":"48"},{"Label":"Rolls-Royce","Value":"195"},{"Label":"Rover","Value":"49"},{"Label":"Saab","Value":"50"},{"Label":"Saturn","Value":"51"},{"Label":"Seat","Value":"52"},{"Label":"SHINERAY","Value":"183"},{"Label":"smart","Value":"157"},{"Label":"SSANGYONG","Value":"125"},{"Label":"Subaru","Value":"54"},{"Label":"Suzuki","Value":"55"},{"Label":"TAC","Value":"165"},{"Label":"Toyota","Value":"56"},{"Label":"Troller","Value":"57"},{"Label":"Volvo","Value":"58"},{"Label":"VW
+        - VolksWagen","Value":"59"},{"Label":"Wake","Value":"163"},{"Label":"Walk","Value":"120"}]'
+  recorded_at: Fri, 13 Nov 2020 23:29:04 GMT
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarTabelaDeReferencia
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.5; path=/
+      - __cfduid=da477d218ca8f977ea29b3660329420dd1605310144; expires=Sun, 13-Dec-20
+        23:29:04 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:04 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589f7760000eec64aa83000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Tt0AbADMNrD%2FeKu9EDaMdYGdn71j0efTcdkxXG7BV4YBkp5WodksvpsrFDR3CJSGgzst0JYG4qrs5DNia0IZ8mvPWZQkSc8LsDmbb68kLrBn%2Fr8n5w%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45d25910eec6-GRU
+    body:
+      encoding: UTF-8
+      string: '[{"Codigo":262,"Mes":"novembro/2020 "},{"Codigo":261,"Mes":"outubro/2020
+        "},{"Codigo":260,"Mes":"setembro/2020 "},{"Codigo":259,"Mes":"agosto/2020
+        "},{"Codigo":258,"Mes":"julho/2020 "},{"Codigo":256,"Mes":"junho/2020 "},{"Codigo":255,"Mes":"maio/2020
+        "},{"Codigo":253,"Mes":"abril/2020 "},{"Codigo":252,"Mes":"março/2020 "},{"Codigo":251,"Mes":"fevereiro/2020
+        "},{"Codigo":250,"Mes":"janeiro/2020 "},{"Codigo":249,"Mes":"dezembro/2019
+        "},{"Codigo":248,"Mes":"novembro/2019 "},{"Codigo":247,"Mes":"outubro/2019
+        "},{"Codigo":246,"Mes":"setembro/2019 "},{"Codigo":245,"Mes":"agosto/2019
+        "},{"Codigo":244,"Mes":"julho/2019 "},{"Codigo":243,"Mes":"junho/2019 "},{"Codigo":242,"Mes":"maio/2019
+        "},{"Codigo":241,"Mes":"abril/2019 "},{"Codigo":239,"Mes":"março/2019 "},{"Codigo":238,"Mes":"fevereiro/2019
+        "},{"Codigo":237,"Mes":"janeiro/2019 "},{"Codigo":236,"Mes":"dezembro/2018
+        "},{"Codigo":235,"Mes":"novembro/2018 "},{"Codigo":234,"Mes":"outubro/2018
+        "},{"Codigo":233,"Mes":"setembro/2018 "},{"Codigo":232,"Mes":"agosto/2018
+        "},{"Codigo":231,"Mes":"julho/2018 "},{"Codigo":230,"Mes":"junho/2018 "},{"Codigo":229,"Mes":"maio/2018
+        "},{"Codigo":228,"Mes":"abril/2018 "},{"Codigo":227,"Mes":"março/2018 "},{"Codigo":226,"Mes":"fevereiro/2018
+        "},{"Codigo":225,"Mes":"janeiro/2018 "},{"Codigo":224,"Mes":"dezembro/2017
+        "},{"Codigo":219,"Mes":"novembro/2017 "},{"Codigo":218,"Mes":"outubro/2017
+        "},{"Codigo":217,"Mes":"setembro/2017 "},{"Codigo":216,"Mes":"agosto/2017
+        "},{"Codigo":215,"Mes":"julho/2017 "},{"Codigo":214,"Mes":"junho/2017 "},{"Codigo":212,"Mes":"maio/2017
+        "},{"Codigo":211,"Mes":"abril/2017 "},{"Codigo":207,"Mes":"março/2017 "},{"Codigo":205,"Mes":"fevereiro/2017
+        "},{"Codigo":202,"Mes":"janeiro/2017 "},{"Codigo":200,"Mes":"dezembro/2016
+        "},{"Codigo":198,"Mes":"novembro/2016 "},{"Codigo":197,"Mes":"outubro/2016
+        "},{"Codigo":196,"Mes":"setembro/2016 "},{"Codigo":194,"Mes":"agosto/2016
+        "},{"Codigo":193,"Mes":"julho/2016 "},{"Codigo":192,"Mes":"junho/2016 "},{"Codigo":191,"Mes":"maio/2016
+        "},{"Codigo":190,"Mes":"abril/2016 "},{"Codigo":189,"Mes":"março/2016 "},{"Codigo":188,"Mes":"fevereiro/2016
+        "},{"Codigo":187,"Mes":"janeiro/2016 "},{"Codigo":186,"Mes":"dezembro/2015
+        "},{"Codigo":185,"Mes":"novembro/2015 "},{"Codigo":184,"Mes":"outubro/2015
+        "},{"Codigo":183,"Mes":"setembro/2015 "},{"Codigo":182,"Mes":"agosto/2015
+        "},{"Codigo":181,"Mes":"julho/2015 "},{"Codigo":180,"Mes":"junho/2015 "},{"Codigo":179,"Mes":"maio/2015
+        "},{"Codigo":178,"Mes":"abril/2015 "},{"Codigo":176,"Mes":"março/2015 "},{"Codigo":175,"Mes":"fevereiro/2015
+        "},{"Codigo":174,"Mes":"janeiro/2015 "},{"Codigo":173,"Mes":"dezembro/2014
+        "},{"Codigo":172,"Mes":"novembro/2014 "},{"Codigo":171,"Mes":"outubro/2014
+        "},{"Codigo":170,"Mes":"setembro/2014 "},{"Codigo":169,"Mes":"agosto/2014
+        "},{"Codigo":168,"Mes":"julho/2014 "},{"Codigo":167,"Mes":"junho/2014 "},{"Codigo":166,"Mes":"maio/2014
+        "},{"Codigo":165,"Mes":"abril/2014 "},{"Codigo":164,"Mes":"março/2014 "},{"Codigo":163,"Mes":"fevereiro/2014
+        "},{"Codigo":162,"Mes":"janeiro/2014 "},{"Codigo":161,"Mes":"dezembro/2013
+        "},{"Codigo":160,"Mes":"novembro/2013 "},{"Codigo":159,"Mes":"outubro/2013
+        "},{"Codigo":158,"Mes":"setembro/2013 "},{"Codigo":157,"Mes":"agosto/2013
+        "},{"Codigo":156,"Mes":"julho/2013 "},{"Codigo":155,"Mes":"junho/2013 "},{"Codigo":154,"Mes":"maio/2013
+        "},{"Codigo":153,"Mes":"abril/2013 "},{"Codigo":152,"Mes":"março/2013 "},{"Codigo":151,"Mes":"fevereiro/2013
+        "},{"Codigo":150,"Mes":"janeiro/2013 "},{"Codigo":149,"Mes":"dezembro/2012
+        "},{"Codigo":148,"Mes":"novembro/2012 "},{"Codigo":147,"Mes":"outubro/2012
+        "},{"Codigo":146,"Mes":"setembro/2012 "},{"Codigo":145,"Mes":"agosto/2012
+        "},{"Codigo":144,"Mes":"julho/2012 "},{"Codigo":143,"Mes":"junho/2012 "},{"Codigo":142,"Mes":"maio/2012
+        "},{"Codigo":141,"Mes":"abril/2012 "},{"Codigo":140,"Mes":"março/2012 "},{"Codigo":139,"Mes":"fevereiro/2012
+        "},{"Codigo":138,"Mes":"janeiro/2012 "},{"Codigo":137,"Mes":"dezembro/2011
+        "},{"Codigo":136,"Mes":"novembro/2011 "},{"Codigo":135,"Mes":"outubro/2011
+        "},{"Codigo":134,"Mes":"setembro/2011 "},{"Codigo":133,"Mes":"agosto/2011
+        "},{"Codigo":132,"Mes":"julho/2011 "},{"Codigo":131,"Mes":"junho/2011 "},{"Codigo":130,"Mes":"maio/2011
+        "},{"Codigo":129,"Mes":"abril/2011 "},{"Codigo":128,"Mes":"março/2011 "},{"Codigo":127,"Mes":"fevereiro/2011
+        "},{"Codigo":126,"Mes":"janeiro/2011 "},{"Codigo":125,"Mes":"dezembro/2010
+        "},{"Codigo":124,"Mes":"novembro/2010 "},{"Codigo":123,"Mes":"outubro/2010
+        "},{"Codigo":122,"Mes":"setembro/2010 "},{"Codigo":121,"Mes":"agosto/2010
+        "},{"Codigo":120,"Mes":"julho/2010 "},{"Codigo":119,"Mes":"junho/2010 "},{"Codigo":118,"Mes":"maio/2010
+        "},{"Codigo":117,"Mes":"abril/2010 "},{"Codigo":61,"Mes":"março/2010 "},{"Codigo":60,"Mes":"fevereiro/2010
+        "},{"Codigo":59,"Mes":"janeiro/2010 "},{"Codigo":58,"Mes":"dezembro/2009 "},{"Codigo":57,"Mes":"novembro/2009
+        "},{"Codigo":56,"Mes":"outubro/2009 "},{"Codigo":55,"Mes":"setembro/2009 "},{"Codigo":54,"Mes":"agosto/2009
+        "},{"Codigo":53,"Mes":"julho/2009 "},{"Codigo":52,"Mes":"junho/2009 "},{"Codigo":51,"Mes":"maio/2009
+        "},{"Codigo":50,"Mes":"abril/2009 "},{"Codigo":49,"Mes":"março/2009 "},{"Codigo":48,"Mes":"fevereiro/2009
+        "},{"Codigo":47,"Mes":"janeiro/2009 "},{"Codigo":46,"Mes":"dezembro/2008 "},{"Codigo":45,"Mes":"novembro/2008
+        "},{"Codigo":44,"Mes":"outubro/2008 "},{"Codigo":43,"Mes":"setembro/2008 "},{"Codigo":42,"Mes":"agosto/2008
+        "},{"Codigo":41,"Mes":"julho/2008 "},{"Codigo":40,"Mes":"junho/2008 "},{"Codigo":38,"Mes":"maio/2008
+        "},{"Codigo":37,"Mes":"abril/2008 "},{"Codigo":36,"Mes":"março/2008 "},{"Codigo":35,"Mes":"fevereiro/2008
+        "},{"Codigo":34,"Mes":"janeiro/2008 "},{"Codigo":33,"Mes":"dezembro/2007 "},{"Codigo":32,"Mes":"novembro/2007
+        "},{"Codigo":31,"Mes":"outubro/2007 "},{"Codigo":30,"Mes":"setembro/2007 "},{"Codigo":29,"Mes":"agosto/2007
+        "},{"Codigo":28,"Mes":"julho/2007 "},{"Codigo":27,"Mes":"junho/2007 "},{"Codigo":26,"Mes":"maio/2007
+        "},{"Codigo":24,"Mes":"abril/2007 "},{"Codigo":23,"Mes":"março/2007 "},{"Codigo":21,"Mes":"fevereiro/2007
+        "},{"Codigo":20,"Mes":"janeiro/2007 "},{"Codigo":19,"Mes":"dezembro/2006 "},{"Codigo":18,"Mes":"novembro/2006
+        "},{"Codigo":17,"Mes":"outubro/2006 "},{"Codigo":16,"Mes":"setembro/2006 "},{"Codigo":15,"Mes":"agosto/2006
+        "},{"Codigo":14,"Mes":"julho/2006 "},{"Codigo":13,"Mes":"junho/2006 "},{"Codigo":12,"Mes":"maio/2006
+        "},{"Codigo":11,"Mes":"abril/2006 "},{"Codigo":10,"Mes":"março/2006 "},{"Codigo":9,"Mes":"fevereiro/2006
+        "},{"Codigo":8,"Mes":"janeiro/2006 "},{"Codigo":111,"Mes":"dezembro/2005 "},{"Codigo":6,"Mes":"novembro/2005
+        "},{"Codigo":2,"Mes":"outubro/2005 "},{"Codigo":1,"Mes":"setembro/2005 "},{"Codigo":7,"Mes":"agosto/2005
+        "},{"Codigo":25,"Mes":"julho/2005 "},{"Codigo":116,"Mes":"junho/2005 "},{"Codigo":115,"Mes":"maio/2005
+        "},{"Codigo":114,"Mes":"abril/2005 "},{"Codigo":113,"Mes":"março/2005 "},{"Codigo":112,"Mes":"fevereiro/2005
+        "},{"Codigo":110,"Mes":"janeiro/2005 "},{"Codigo":101,"Mes":"dezembro/2004
+        "},{"Codigo":100,"Mes":"novembro/2004 "},{"Codigo":99,"Mes":"outubro/2004
+        "},{"Codigo":109,"Mes":"setembro/2004 "},{"Codigo":108,"Mes":"agosto/2004
+        "},{"Codigo":107,"Mes":"julho/2004 "},{"Codigo":106,"Mes":"junho/2004 "},{"Codigo":105,"Mes":"maio/2004
+        "},{"Codigo":104,"Mes":"abril/2004 "},{"Codigo":103,"Mes":"março/2004 "},{"Codigo":102,"Mes":"fevereiro/2004
+        "},{"Codigo":98,"Mes":"janeiro/2004 "},{"Codigo":89,"Mes":"dezembro/2003 "},{"Codigo":88,"Mes":"novembro/2003
+        "},{"Codigo":87,"Mes":"outubro/2003 "},{"Codigo":97,"Mes":"setembro/2003 "},{"Codigo":96,"Mes":"agosto/2003
+        "},{"Codigo":95,"Mes":"julho/2003 "},{"Codigo":94,"Mes":"junho/2003 "},{"Codigo":93,"Mes":"maio/2003
+        "},{"Codigo":92,"Mes":"abril/2003 "},{"Codigo":91,"Mes":"março/2003 "},{"Codigo":90,"Mes":"fevereiro/2003
+        "},{"Codigo":86,"Mes":"janeiro/2003 "},{"Codigo":77,"Mes":"dezembro/2002 "},{"Codigo":76,"Mes":"novembro/2002
+        "},{"Codigo":75,"Mes":"outubro/2002 "},{"Codigo":85,"Mes":"setembro/2002 "},{"Codigo":84,"Mes":"agosto/2002
+        "},{"Codigo":83,"Mes":"julho/2002 "},{"Codigo":82,"Mes":"junho/2002 "},{"Codigo":81,"Mes":"maio/2002
+        "},{"Codigo":80,"Mes":"abril/2002 "},{"Codigo":79,"Mes":"março/2002 "},{"Codigo":78,"Mes":"fevereiro/2002
+        "},{"Codigo":74,"Mes":"janeiro/2002 "},{"Codigo":66,"Mes":"dezembro/2001 "},{"Codigo":65,"Mes":"novembro/2001
+        "},{"Codigo":64,"Mes":"outubro/2001 "},{"Codigo":73,"Mes":"setembro/2001 "},{"Codigo":72,"Mes":"agosto/2001
+        "},{"Codigo":71,"Mes":"julho/2001 "},{"Codigo":70,"Mes":"junho/2001 "},{"Codigo":69,"Mes":"maio/2001
+        "},{"Codigo":68,"Mes":"abril/2001 "},{"Codigo":67,"Mes":"março/2001 "},{"Codigo":63,"Mes":"fevereiro/2001
+        "},{"Codigo":62,"Mes":"janeiro/2001 "}]'
+  recorded_at: Fri, 13 Nov 2020 23:29:04 GMT
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarModelos?codigoMarca=6&codigoTabelaReferencia=262&codigoTipoVeiculo=1
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.3; path=/
+      - __cfduid=df9672c38a0103812daaf723c73fa62b31605310144; expires=Sun, 13-Dec-20
+        23:29:04 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:04 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589f7d80000f70c3ca59000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=LbWkv%2F%2FXhiPd6siOL21U5N1oXvtQ3kbFEb%2FJcG8ZZzANfSMvY%2B99S7%2FbsOkov85hT0MTAJg9Kxgw0iib4TNUTIUmOYG4Tsm9hHuBzeUq0KH1BLFD4Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45d2f86ff70c-GRU
+    body:
+      encoding: UTF-8
+      string: '{"Modelos":[{"Label":"100 2.8 V6","Value":43},{"Label":"100 2.8 V6
+        Avant","Value":44},{"Label":"100 S-4 2.2 Avant Turbo","Value":45},{"Label":"80
+        2.0","Value":46},{"Label":"80 2.0 Avant","Value":47},{"Label":"80 2.6/ 2.8","Value":48},{"Label":"80
+        2.6/2.8 Avant","Value":49},{"Label":"80 2.8 Cabriolet","Value":50},{"Label":"80
+        S2 Avant","Value":51},{"Label":"A1 1.4 TFSI 122cv S-tronic 3p","Value":5496},{"Label":"A1
+        2.0 TFSI Quattro 256cv 3p","Value":6293},{"Label":"A1 Sport 1.4 TFSI 185cv
+        3p S-tronic","Value":6143},{"Label":"A1 Sport. S Edition 1.4 TFSI 5p S-tronic","Value":7727},{"Label":"A1
+        Sportback 1.4 TFSI 185cv 5p S-tronic","Value":6201},{"Label":"A1 Sportback
+        1.4 TFSI 5p S-tronic","Value":6200},{"Label":"A1 Sportback 1.8 TFSI 192cv
+        5p S-tronic","Value":7418},{"Label":"A3 1.6 3p","Value":52},{"Label":"A3 1.6
+        3p Aut.","Value":53},{"Label":"A3 1.6 5p","Value":54},{"Label":"A3 1.6 5p
+        Aut.","Value":55},{"Label":"A3 1.6 8V 102cv 3p","Value":4154},{"Label":"A3
+        1.8 3p","Value":56},{"Label":"A3 1.8 3p Aut.","Value":57},{"Label":"A3 1.8
+        5p Aut.","Value":58},{"Label":"A3 1.8 5p Mec.","Value":59},{"Label":"A3 1.8
+        Turbo 180cv 3p Aut./ Tip.","Value":60},{"Label":"A3 1.8 Turbo 180cv 3p Mec.","Value":61},{"Label":"A3
+        1.8 Turbo 180cv 5p Aut./ Tip.","Value":62},{"Label":"A3 1.8 Turbo 180cv 5p
+        Mec.","Value":63},{"Label":"A3 1.8 Turbo 3p Aut.","Value":64},{"Label":"A3
+        1.8 Turbo 3p Mec.","Value":65},{"Label":"A3 1.8 Turbo 5p Aut.","Value":66},{"Label":"A3
+        1.8 Turbo 5p Mec.","Value":67},{"Label":"A3 Cabriolet 1.8 16V TFSI 180cv S-tronic","Value":6950},{"Label":"A3
+        Cabriolet Ambition 2.0 TFSI S-tronic","Value":8227},{"Label":"A3 Cabriolet
+        Perfor. 2.0 TFSI S-tronic","Value":8559},{"Label":"A3 Sed. Ambition 2.0 TSFI
+        220cv S-tronic","Value":7419},{"Label":"A3 Sed. P. Plus Tech 1.4 Flex TFSI
+        Tip.","Value":8945},{"Label":"A3 Sed. P.Plus 1.4 25Anos Flex TFSI Tip.","Value":8768},{"Label":"A3
+        Sed. Perform. Black 2.0 TFSI S-tronic","Value":8983},{"Label":"A3 Sed.1.8/1.8
+        Ambit.16V TB FSI S-tronic","Value":6689},{"Label":"A3 Sedan 1.4 TFSI Flex
+        Tiptronic 4p","Value":7391},{"Label":"A3 Sedan 1.4/ Attra. 16V TB FSI S-tronic","Value":6768},{"Label":"A3
+        Sedan Performance 2.0 TFSI S-tronic","Value":8560},{"Label":"A3 Sedan Prestige
+        1.4 TFSI Flex Tip.","Value":8561},{"Label":"A3 Sedan Prestige Plus 1.4 TFSI
+        Flex Tip","Value":8562},{"Label":"A3 Sport 1.8 16V TFSI S-tronic 3p","Value":6461},{"Label":"A3
+        Sport 2.0 16V TFSI S- tronic","Value":5125},{"Label":"A3 Sportb. Prestige
+        Plus 1.4 TFSI S-tron","Value":8563},{"Label":"A3 Sportback 1.4 TFSI S-tronic","Value":6510},{"Label":"A3
+        Sportback 1.6 8V 102cv 5p","Value":4155},{"Label":"A3 Sportback 1.8 16V TFSI
+        S-tronic 5p","Value":6511},{"Label":"A3 Sportback 2.0 16V TFSI Mec.","Value":4156},{"Label":"A3
+        Sportback 2.0 16V TFSI S-tronic","Value":4157},{"Label":"A4 1.8  Aut.","Value":68},{"Label":"A4
+        1.8  Mec.","Value":69},{"Label":"A4 1.8 Avant Aut.","Value":70},{"Label":"A4
+        1.8 Avant Mec.","Value":71},{"Label":"A4 1.8 Avant Turbo Mec.","Value":72},{"Label":"A4
+        1.8 Avant Turbo Tip./ Multitronic","Value":73},{"Label":"A4 1.8 Tip./ Multitronic
+        Turbo","Value":74},{"Label":"A4 1.8 Turbo","Value":75},{"Label":"A4 2.0 16V
+        TFSI 183/180cv Multitronic","Value":4843},{"Label":"A4 2.0 16V TFSI 200/ 214cv
+        Multitronic","Value":4182},{"Label":"A4 2.0 16V TFSI Quattro Stronic","Value":6144},{"Label":"A4
+        2.0 20V 130cv Multitronic 4p","Value":76},{"Label":"A4 2.0 Avant 16V TFSI
+        Quattro Stronic","Value":6145},{"Label":"A4 2.0 Avant Ambie. 2.0 16V TFSi
+        S tron.","Value":7750},{"Label":"A4 2.0 Avant TFSI 183/180cv Multitroni","Value":4844},{"Label":"A4
+        2.0 Avant TFSI 200/214cv Multitron.","Value":4183},{"Label":"A4 2.4 30V Avant
+        Mec.","Value":77},{"Label":"A4 2.4 30V Avant Tip./Multitronic","Value":78},{"Label":"A4
+        2.4 30V Mec.","Value":79},{"Label":"A4 2.4 30V Tip./Multitronic","Value":80},{"Label":"A4
+        2.4 Avant V6 30V Quattro Mec.","Value":81},{"Label":"A4 2.4 Avant V6 30V Quattro
+        Tiptronic","Value":82},{"Label":"A4 2.4 V6 30V Quattro Mec.","Value":83},{"Label":"A4
+        2.4 V6 30V Quattro Tiptronic","Value":84},{"Label":"A4 2.8","Value":85},{"Label":"A4
+        2.8 30V  Tiptronic/ Aut.","Value":86},{"Label":"A4 2.8 30V Mec.","Value":87},{"Label":"A4
+        2.8 Avant V6 12V","Value":88},{"Label":"A4 2.8 Avant V6 30V Mec.","Value":89},{"Label":"A4
+        2.8 Avant V6 30V Quattro Mec.","Value":90},{"Label":"A4 2.8 Avant V6 30V Quattro
+        Tiptronic","Value":91},{"Label":"A4 2.8 Avant V6 30V Tiptronic","Value":92},{"Label":"A4
+        2.8 V6 30V  Quattro Tiptronic","Value":93},{"Label":"A4 2.8 V6 30V Quattro
+        Mec.","Value":94},{"Label":"A4 3.0 30V 218cv Multitronic 4p","Value":95},{"Label":"A4
+        3.0 30V 218cv Quattro Tiptron./Aut 4p","Value":96},{"Label":"A4 3.0 Avant
+        30V 218cv Multitronic 5p","Value":97},{"Label":"A4 3.0 Avant 30V 218cv Quattro
+        Tiptronic","Value":98},{"Label":"A4 3.0 Cabriolet 30V 218cv Multitronic","Value":99},{"Label":"A4
+        3.2 FSI 24V 255cv Multitronic","Value":4286},{"Label":"A4 3.2 FSI 24V 269cv
+        Quattro Tiptronic","Value":4731},{"Label":"A4 3.2 FSI Avant 24V 255cv Multitronic","Value":4287},{"Label":"A4
+        3.2 FSI Avant 24V Quattro S Tronic","Value":4935},{"Label":"A4 3.2 FSI Cabriolet
+        24V 255cv Multitron","Value":4288},{"Label":"A4 Ambiente 2.0 TFSI 190cv S
+        tronic","Value":7717},{"Label":"A4 Ambition 2.0 TFSI Quattro S tronic","Value":7894},{"Label":"A4
+        Attraction 2.0 TFSI 190cv S tronic","Value":7656},{"Label":"A4 Avant Lim.
+        Ed. 2.0 TFSI S tronic","Value":8228},{"Label":"A4 Avant Prest. Plus 2.0 TFSI
+        S-tronic","Value":8769},{"Label":"A4 Launch Edition 2.0 TFSI 190cv S troni","Value":7537},{"Label":"A4
+        Limited Edition 2.0 TFSI S tronic","Value":8229},{"Label":"A4 Prestige 2.0
+        TFSI 190cv S-tronic","Value":8770},{"Label":"A4 Prestige Plus 2.0 TFSI 190cv
+        S tronic","Value":8771},{"Label":"A5 3.2 FSI 24V 269cv Multitronic","Value":4798},{"Label":"A5
+        3.2 FSI V6 24V 269cv Quattro Tiptroni","Value":5126},{"Label":"A5 Ambiente
+        Sportb. 2.0 TFSI S tonic","Value":7999},{"Label":"A5 Ambit. Plus Sport. 2.0
+        TFSI S tronic","Value":8000},{"Label":"A5 Ambit. Sport. 2.0 TFSI S tronic","Value":8001},{"Label":"A5
+        Attraction Sportb. 2.0 TFSI S tronic","Value":8002},{"Label":"A5 Cabriolet
+        2.0 TFSI Quattro Stronic","Value":6082},{"Label":"A5 Coupê 2.0 TFSI Quattro
+        Stronic","Value":6083},{"Label":"A5 Sportb. 2.0 16V TFSI Quat. S-tronic","Value":6084},{"Label":"A5
+        Sportb. Perf. 2.0 TFSI Quat. S-tronic","Value":8564},{"Label":"A5 Sportb.
+        Prestige 2.0 16V TFSI S-troni","Value":8565},{"Label":"A5 Sportb.Perf.B. 2.0
+        TFSI Quat. S-troni","Value":8566},{"Label":"A5 Sportb.Prestige Plus 2.0 TFSI
+        S-tronc","Value":8567},{"Label":"A5 Sportback 1.8 TFSI 170cv Multi.","Value":7022},{"Label":"A5
+        Sportback 2.0 16V TFSI 180cv Multi.","Value":6043},{"Label":"A5 Sportback
+        2.0 16V TFSI 211cv Multi.","Value":5234},{"Label":"A5 Sportback S-Line 2.0
+        TFSI S-tronic","Value":8772},{"Label":"A6 2.0 TFSI 252cv S tronic 4p","Value":7254},{"Label":"A6
+        2.4 30V Mec","Value":100},{"Label":"A6 2.4 30V Tip./Multitronic","Value":101},{"Label":"A6
+        2.4 Avant 30V Mec.","Value":102},{"Label":"A6 2.4 Avant 30V Tip./ Multitronic","Value":103},{"Label":"A6
+        2.4 Avant V6 30V Quattro Mec.","Value":104},{"Label":"A6 2.4 Avant V6 30V
+        Quattro Tiptronic","Value":105},{"Label":"A6 2.4 V6 30V Quattro Mec","Value":106},{"Label":"A6
+        2.4 V6 30V Quattro Tiptronic","Value":107},{"Label":"A6 2.7 30V Avant Tiptronic","Value":108},{"Label":"A6
+        2.7 30V Mec.","Value":109},{"Label":"A6 2.7 Avant Quattro Tiptronic","Value":110},{"Label":"A6
+        2.7 Quattro Tiptronic","Value":111},{"Label":"A6 2.8","Value":112},{"Label":"A6
+        2.8 30V Mec.","Value":113},{"Label":"A6 2.8 30V Tiptronic","Value":114},{"Label":"A6
+        2.8 Avant","Value":115},{"Label":"A6 2.8 Avant 30V Mec.","Value":116},{"Label":"A6
+        2.8 Avant 30V Tiptronic","Value":117},{"Label":"A6 2.8 Avant V6 30V Quattro
+        Mec.","Value":118},{"Label":"A6 2.8 Avant V6 30V Quattro Tiptronic","Value":119},{"Label":"A6
+        2.8 V6 30V Quattro Mec.","Value":120},{"Label":"A6 2.8 V6 30V Quattro Tiptronic","Value":121},{"Label":"A6
+        3.0 Avant V6 30V 218cv Multitronic 5p","Value":122},{"Label":"A6 3.0 Avant.
+        TB FSI V6 Quattro Tip. 5p","Value":5374},{"Label":"A6 3.0 Avant.TFSI V6 Quattro
+        S tronic 5p","Value":6413},{"Label":"A6 3.0 TB FSI V6 Quattro Tiptronic","Value":4958},{"Label":"A6
+        3.0 TFSI V6 Quattro S tronic 4p","Value":6414},{"Label":"A6 3.0 V6 30V 218cv
+        Multitronic 4p","Value":123},{"Label":"A6 3.2 FSI 24V 255cv Multitronic","Value":4526},{"Label":"A6
+        4.2 Avant Quattro Tiptronic","Value":124},{"Label":"A6 4.2 Quattro Tiptronic","Value":125},{"Label":"A6
+        Allroad 3.0 TFSI V6 Quattro S tronic","Value":6462},{"Label":"A6 Performance
+        3.0 TFSI Quattro S.tronic","Value":8814},{"Label":"A7 Sportback 2.0 TFSI S
+        Tronic","Value":7447},{"Label":"A7 Sportback 3.0 TFSI Quattro S Tronic","Value":5549},{"Label":"A7
+        Sportback Perf. 3.0 TFSI S-tron Quat.","Value":8815},{"Label":"A8 3.0 TFSI
+        310cv Quattro Tiptronic 4p","Value":7127},{"Label":"A8 4.0 TFSI Quattro Tiptronic","Value":6631},{"Label":"A8
+        4.2 Quattro Tiptronic","Value":126},{"Label":"A8 4.2 V8 32V Tiptronic","Value":127},{"Label":"A8
+        6.0 W12 48V 450cv Quattro Tiptronic","Value":3928},{"Label":"A8 6.3 W12 48V
+        Quattro Tiptronic","Value":5717},{"Label":"Allroad 2.7 30V Quattro Turbo Tiptronic","Value":128},{"Label":"Avant
+        RS2","Value":129},{"Label":"E-TRON Performa. Black Aut. (Elétrico)","Value":9077},{"Label":"E-TRON
+        Performace Aut. (Elétrico)","Value":9078},{"Label":"E-TRON Sportb. Perf.Black
+        Aut.(Elétrico)","Value":9186},{"Label":"E-TRON Sportback Perf. Aut. (Elétrico)","Value":9187},{"Label":"Q3
+        1.4 TFSI/TFSI Flex S-tronic 5p","Value":7255},{"Label":"Q3 2.0 TFSI Quat.
+        170/180cv S-tronic 5p","Value":6044},{"Label":"Q3 2.0 TFSI Quat. 211/220cv
+        S-tronic 5p","Value":6045},{"Label":"Q3 Black Ed. 1.4 TFSI Flex/Black S-tron.","Value":8230},{"Label":"Q3
+        P. Plus 1.4 TFSI Flex/P.Plus S-tronic","Value":8569},{"Label":"Q3 Prest. 1.4
+        TFSI Flex/Prest. S-tronic","Value":8568},{"Label":"Q5 2.0 16V TFSI 225cv Quattro
+        Tiptronic","Value":6573},{"Label":"Q5 2.0 16V TFSI Quattro S Tronic","Value":4936},{"Label":"Q5
+        2.0 TFSI Quattro S tronic (Blindado)","Value":8231},{"Label":"Q5 3.0 V6 TFSI
+        272cv Quattro Tiptronic","Value":6486},{"Label":"Q5 3.2 FSI V6 Quattro S Tronic","Value":4959},{"Label":"Q5
+        Ambiente 2.0 TFSI Quattro S tronic","Value":8036},{"Label":"Q5 Ambition 2.0
+        TFSI Quattro S tronic","Value":8037},{"Label":"Q5 Attraction 2.0 TFSI Quattro
+        S tronic","Value":8038},{"Label":"Q5 Black 2.0 TFSI Quattro S tronic","Value":8583},{"Label":"Q5
+        Prestige 2.0 TFSI Quattro S tronic","Value":8584},{"Label":"Q5 Prestige Plus
+        2.0 TFSI Quat. S tronic","Value":8585},{"Label":"Q5 S-Line 2.0 TFSI Quattro
+        S-tronic","Value":8773},{"Label":"Q7 3.0 V6 TDI Quat.Tip. 5p Die./Perfor.","Value":7917},{"Label":"Q7
+        3.0 V6 TFSI  Quat.Tip.5p/ Performance","Value":5445},{"Label":"Q7 3.6 V6 284cv
+        Quattro Tiptronic","Value":4694},{"Label":"Q7 4.2 V8 40V 350cv Quattro Tiptronic","Value":4184},{"Label":"Q7
+        Perf. Black 3.0 V6 TFSI Quat.Tip. 5p","Value":8659},{"Label":"Q7 Perf.Black
+        3.0 TDI Quat.Tip.5p Dies.","Value":8658},{"Label":"Q7 S-Line 3.0 V6 TFSI Quattro
+        Tiptronic","Value":9205},{"Label":"Q8 Perf.Bl. 3.0 TFSI Coupe Quat. S-tron.","Value":8774},{"Label":"Q8
+        Perform. 3.0 TFSI Coupe Quat. S-tron.","Value":8775},{"Label":"R8 4.2 V8 426cv
+        Quattro R-tronic","Value":5235},{"Label":"R8 5.2 V10 Quattro R-tronic/S-tronic","Value":5236},{"Label":"R8
+        GT 5.2 V10 560cv Quattro R-tronic","Value":5974},{"Label":"R8 Spyder 5.2 Quattro
+        R-tronic/S-tronic","Value":5550},{"Label":"RS Q3 2.5 TFSI Quattro S-tronic
+        5p","Value":6865},{"Label":"RS3 Sedan 2.5 TFSI Quattro S-tronic","Value":8175},{"Label":"RS3
+        Sportback 2.5 TFSI Quattro S-tronic","Value":5922},{"Label":"RS4 2.7 Avant
+        V6 30V BI-TB Quattro 380cv","Value":130},{"Label":"RS4 2.9 Avant V6 TFSI Quattro
+        Tiptronic","Value":8628},{"Label":"RS4 4.2 Avant 32V FSI Quattro S-tronic","Value":6487},{"Label":"RS5
+        4.2 FSI V8 450cv Quattro S-Tron. 2p","Value":5410},{"Label":"RS5 Coupê 2.9
+        V6 TFSI Quattro Tiptronic","Value":8629},{"Label":"RS6 4.0 Avant TFSI BI-TB
+        Quattro Tip. 5p","Value":6690},{"Label":"RS6 4.2 450cv BI-TB Quattro Tiptronic
+        4p","Value":131},{"Label":"RS6 4.2 Avant  BI-TB Quattro Tiptron. 5p","Value":132},{"Label":"RS6
+        5.0 Avant.FSI V10 Bi-TB Quattro Tip.","Value":5335},{"Label":"RS6 5.0 FSI
+        V10 Bi-TB Quattro Tip.","Value":5336},{"Label":"RS7 Sportback 4.0 TFSI Quattro
+        Tiptronic","Value":6883},{"Label":"S Q5 3.0 V6 TFSI 354cv Quattro Tiptronic","Value":6769},{"Label":"S3
+        1.8 225cv Turbo Quattro","Value":133},{"Label":"S3 Sedan 2.0 TFSI Quattro
+        286cv S-tronic","Value":6951},{"Label":"S3 Sportback 2.0 TFSI Quattro S Tronic","Value":5127},{"Label":"S4
+        2.7 Avant Turbo Quattro","Value":134},{"Label":"S4 2.7 Turbo Quattro Mec.","Value":135},{"Label":"S4
+        3.0 Avant TFSI V6 24V Quattro Stronic","Value":6085},{"Label":"S4 3.0 TFSI
+        V6 24V Quattro Stronic","Value":6086},{"Label":"S4 4.2 Avant V8 40V 344cv
+        Quattro Tipt.","Value":136},{"Label":"S4 4.2 V8 40V 344cv Quattro Tiptronic","Value":137},{"Label":"S5
+        Cabriolet 3.0 TFSI Quattro Stronic","Value":6087},{"Label":"S5 Coupê 3.0 TFSI
+        Quattro Stronic","Value":6088},{"Label":"S5 Sportback 3.0 TFSI Quattro Stronic","Value":6089},{"Label":"S6
+        2.2 20V TB","Value":138},{"Label":"S6 2.2 Avant 20V TB","Value":139},{"Label":"S6
+        4.0 TFSI Quattro S-Tronic 4p","Value":7302},{"Label":"S6 4.2 Avant V8 40V
+        Quattro Tiptronic","Value":140},{"Label":"S6 4.2 V8 40V Quattro Mec","Value":141},{"Label":"S6
+        4.2 V8 40V Quattro Tiptronic","Value":142},{"Label":"S6 5.2 Avant FSI V10
+        435cv Quattro Tiptr","Value":5186},{"Label":"S6 5.2 FSI V10 435cv Quattro
+        Tiptronic","Value":5187},{"Label":"S6 Plus 4.2 Avant V8 32V","Value":143},{"Label":"S6
+        Plus 4.2 V8 32V","Value":144},{"Label":"S7 4.0 TFSI 420/450cv Quattro S-tronic","Value":6632},{"Label":"S8
+        4.0 TFSI Quattro Tiptronic 4p","Value":7128},{"Label":"S8 4.2 Mec","Value":145},{"Label":"S8
+        4.2 Quattro Mec.","Value":146},{"Label":"S8 4.2 Quattro Tiptronic","Value":147},{"Label":"S8
+        4.2 Tiptronic","Value":148},{"Label":"TT 1.8 TB 180cv","Value":149},{"Label":"TT
+        1.8 TB Quattro 225cv","Value":150},{"Label":"TT 2.0 16v TFSI S-Tronic","Value":4330},{"Label":"TT
+        Roadster 1.8 TB Quattro 225cv (Conv.)","Value":151},{"Label":"TT Roadster
+        2.0 16v TFSI S-Tronic","Value":4431},{"Label":"TTRS 2.5 TFSI QUATTRO S Tronic","Value":6258},{"Label":"TTRS
+        Roadster 2.5 TB FSI Quat. S Tronic","Value":6259},{"Label":"TTS 2.0 TFSI QUATTRO
+        S Tronic","Value":5128},{"Label":"TTS Roadster 2.0 TB FSI Quattro S Tronic","Value":5129}],"Anos":[{"Label":"32000
+        Gasolina","Value":"32000-1"},{"Label":"32000 Diesel","Value":"32000-3"},{"Label":"2021
+        Gasolina","Value":"2021-1"},{"Label":"2020 Gasolina","Value":"2020-1"},{"Label":"2019
+        Gasolina","Value":"2019-1"},{"Label":"2019 Diesel","Value":"2019-3"},{"Label":"2018
+        Gasolina","Value":"2018-1"},{"Label":"2018 Diesel","Value":"2018-3"},{"Label":"2017
+        Gasolina","Value":"2017-1"},{"Label":"2017 Diesel","Value":"2017-3"},{"Label":"2016
+        Gasolina","Value":"2016-1"},{"Label":"2015 Gasolina","Value":"2015-1"},{"Label":"2014
+        Gasolina","Value":"2014-1"},{"Label":"2013 Gasolina","Value":"2013-1"},{"Label":"2012
+        Gasolina","Value":"2012-1"},{"Label":"2011 Gasolina","Value":"2011-1"},{"Label":"2010
+        Gasolina","Value":"2010-1"},{"Label":"2009 Gasolina","Value":"2009-1"},{"Label":"2008
+        Gasolina","Value":"2008-1"},{"Label":"2007 Gasolina","Value":"2007-1"},{"Label":"2006
+        Gasolina","Value":"2006-1"},{"Label":"2005 Gasolina","Value":"2005-1"},{"Label":"2004
+        Gasolina","Value":"2004-1"},{"Label":"2003 Gasolina","Value":"2003-1"},{"Label":"2002
+        Gasolina","Value":"2002-1"},{"Label":"2001 Gasolina","Value":"2001-1"},{"Label":"2000
+        Gasolina","Value":"2000-1"},{"Label":"1999 Gasolina","Value":"1999-1"},{"Label":"1998
+        Gasolina","Value":"1998-1"},{"Label":"1997 Gasolina","Value":"1997-1"},{"Label":"1996
+        Gasolina","Value":"1996-1"},{"Label":"1995 Gasolina","Value":"1995-1"},{"Label":"1994
+        Gasolina","Value":"1994-1"},{"Label":"1993 Gasolina","Value":"1993-1"}]}'
+  recorded_at: Fri, 13 Nov 2020 23:29:04 GMT
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarTabelaDeReferencia
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.3; path=/
+      - __cfduid=db319391637b3c1b5ae00666fecca4e4c1605310144; expires=Sun, 13-Dec-20
+        23:29:04 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:04 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589f8360000f718d51fc000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=5Cs6CLVP%2FOtGCJSQWZ5V9HNceCM%2FGd15H1T1ULZ0qprS3PzhB6X%2F%2BRkGMSzQ6YxUW%2FltfCWQbOdm2NNbSKIthfqCbWOIjN6lRhudSCND3lP5Dw2Ehg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45d38bf1f718-GRU
+    body:
+      encoding: UTF-8
+      string: '[{"Codigo":262,"Mes":"novembro/2020 "},{"Codigo":261,"Mes":"outubro/2020
+        "},{"Codigo":260,"Mes":"setembro/2020 "},{"Codigo":259,"Mes":"agosto/2020
+        "},{"Codigo":258,"Mes":"julho/2020 "},{"Codigo":256,"Mes":"junho/2020 "},{"Codigo":255,"Mes":"maio/2020
+        "},{"Codigo":253,"Mes":"abril/2020 "},{"Codigo":252,"Mes":"março/2020 "},{"Codigo":251,"Mes":"fevereiro/2020
+        "},{"Codigo":250,"Mes":"janeiro/2020 "},{"Codigo":249,"Mes":"dezembro/2019
+        "},{"Codigo":248,"Mes":"novembro/2019 "},{"Codigo":247,"Mes":"outubro/2019
+        "},{"Codigo":246,"Mes":"setembro/2019 "},{"Codigo":245,"Mes":"agosto/2019
+        "},{"Codigo":244,"Mes":"julho/2019 "},{"Codigo":243,"Mes":"junho/2019 "},{"Codigo":242,"Mes":"maio/2019
+        "},{"Codigo":241,"Mes":"abril/2019 "},{"Codigo":239,"Mes":"março/2019 "},{"Codigo":238,"Mes":"fevereiro/2019
+        "},{"Codigo":237,"Mes":"janeiro/2019 "},{"Codigo":236,"Mes":"dezembro/2018
+        "},{"Codigo":235,"Mes":"novembro/2018 "},{"Codigo":234,"Mes":"outubro/2018
+        "},{"Codigo":233,"Mes":"setembro/2018 "},{"Codigo":232,"Mes":"agosto/2018
+        "},{"Codigo":231,"Mes":"julho/2018 "},{"Codigo":230,"Mes":"junho/2018 "},{"Codigo":229,"Mes":"maio/2018
+        "},{"Codigo":228,"Mes":"abril/2018 "},{"Codigo":227,"Mes":"março/2018 "},{"Codigo":226,"Mes":"fevereiro/2018
+        "},{"Codigo":225,"Mes":"janeiro/2018 "},{"Codigo":224,"Mes":"dezembro/2017
+        "},{"Codigo":219,"Mes":"novembro/2017 "},{"Codigo":218,"Mes":"outubro/2017
+        "},{"Codigo":217,"Mes":"setembro/2017 "},{"Codigo":216,"Mes":"agosto/2017
+        "},{"Codigo":215,"Mes":"julho/2017 "},{"Codigo":214,"Mes":"junho/2017 "},{"Codigo":212,"Mes":"maio/2017
+        "},{"Codigo":211,"Mes":"abril/2017 "},{"Codigo":207,"Mes":"março/2017 "},{"Codigo":205,"Mes":"fevereiro/2017
+        "},{"Codigo":202,"Mes":"janeiro/2017 "},{"Codigo":200,"Mes":"dezembro/2016
+        "},{"Codigo":198,"Mes":"novembro/2016 "},{"Codigo":197,"Mes":"outubro/2016
+        "},{"Codigo":196,"Mes":"setembro/2016 "},{"Codigo":194,"Mes":"agosto/2016
+        "},{"Codigo":193,"Mes":"julho/2016 "},{"Codigo":192,"Mes":"junho/2016 "},{"Codigo":191,"Mes":"maio/2016
+        "},{"Codigo":190,"Mes":"abril/2016 "},{"Codigo":189,"Mes":"março/2016 "},{"Codigo":188,"Mes":"fevereiro/2016
+        "},{"Codigo":187,"Mes":"janeiro/2016 "},{"Codigo":186,"Mes":"dezembro/2015
+        "},{"Codigo":185,"Mes":"novembro/2015 "},{"Codigo":184,"Mes":"outubro/2015
+        "},{"Codigo":183,"Mes":"setembro/2015 "},{"Codigo":182,"Mes":"agosto/2015
+        "},{"Codigo":181,"Mes":"julho/2015 "},{"Codigo":180,"Mes":"junho/2015 "},{"Codigo":179,"Mes":"maio/2015
+        "},{"Codigo":178,"Mes":"abril/2015 "},{"Codigo":176,"Mes":"março/2015 "},{"Codigo":175,"Mes":"fevereiro/2015
+        "},{"Codigo":174,"Mes":"janeiro/2015 "},{"Codigo":173,"Mes":"dezembro/2014
+        "},{"Codigo":172,"Mes":"novembro/2014 "},{"Codigo":171,"Mes":"outubro/2014
+        "},{"Codigo":170,"Mes":"setembro/2014 "},{"Codigo":169,"Mes":"agosto/2014
+        "},{"Codigo":168,"Mes":"julho/2014 "},{"Codigo":167,"Mes":"junho/2014 "},{"Codigo":166,"Mes":"maio/2014
+        "},{"Codigo":165,"Mes":"abril/2014 "},{"Codigo":164,"Mes":"março/2014 "},{"Codigo":163,"Mes":"fevereiro/2014
+        "},{"Codigo":162,"Mes":"janeiro/2014 "},{"Codigo":161,"Mes":"dezembro/2013
+        "},{"Codigo":160,"Mes":"novembro/2013 "},{"Codigo":159,"Mes":"outubro/2013
+        "},{"Codigo":158,"Mes":"setembro/2013 "},{"Codigo":157,"Mes":"agosto/2013
+        "},{"Codigo":156,"Mes":"julho/2013 "},{"Codigo":155,"Mes":"junho/2013 "},{"Codigo":154,"Mes":"maio/2013
+        "},{"Codigo":153,"Mes":"abril/2013 "},{"Codigo":152,"Mes":"março/2013 "},{"Codigo":151,"Mes":"fevereiro/2013
+        "},{"Codigo":150,"Mes":"janeiro/2013 "},{"Codigo":149,"Mes":"dezembro/2012
+        "},{"Codigo":148,"Mes":"novembro/2012 "},{"Codigo":147,"Mes":"outubro/2012
+        "},{"Codigo":146,"Mes":"setembro/2012 "},{"Codigo":145,"Mes":"agosto/2012
+        "},{"Codigo":144,"Mes":"julho/2012 "},{"Codigo":143,"Mes":"junho/2012 "},{"Codigo":142,"Mes":"maio/2012
+        "},{"Codigo":141,"Mes":"abril/2012 "},{"Codigo":140,"Mes":"março/2012 "},{"Codigo":139,"Mes":"fevereiro/2012
+        "},{"Codigo":138,"Mes":"janeiro/2012 "},{"Codigo":137,"Mes":"dezembro/2011
+        "},{"Codigo":136,"Mes":"novembro/2011 "},{"Codigo":135,"Mes":"outubro/2011
+        "},{"Codigo":134,"Mes":"setembro/2011 "},{"Codigo":133,"Mes":"agosto/2011
+        "},{"Codigo":132,"Mes":"julho/2011 "},{"Codigo":131,"Mes":"junho/2011 "},{"Codigo":130,"Mes":"maio/2011
+        "},{"Codigo":129,"Mes":"abril/2011 "},{"Codigo":128,"Mes":"março/2011 "},{"Codigo":127,"Mes":"fevereiro/2011
+        "},{"Codigo":126,"Mes":"janeiro/2011 "},{"Codigo":125,"Mes":"dezembro/2010
+        "},{"Codigo":124,"Mes":"novembro/2010 "},{"Codigo":123,"Mes":"outubro/2010
+        "},{"Codigo":122,"Mes":"setembro/2010 "},{"Codigo":121,"Mes":"agosto/2010
+        "},{"Codigo":120,"Mes":"julho/2010 "},{"Codigo":119,"Mes":"junho/2010 "},{"Codigo":118,"Mes":"maio/2010
+        "},{"Codigo":117,"Mes":"abril/2010 "},{"Codigo":61,"Mes":"março/2010 "},{"Codigo":60,"Mes":"fevereiro/2010
+        "},{"Codigo":59,"Mes":"janeiro/2010 "},{"Codigo":58,"Mes":"dezembro/2009 "},{"Codigo":57,"Mes":"novembro/2009
+        "},{"Codigo":56,"Mes":"outubro/2009 "},{"Codigo":55,"Mes":"setembro/2009 "},{"Codigo":54,"Mes":"agosto/2009
+        "},{"Codigo":53,"Mes":"julho/2009 "},{"Codigo":52,"Mes":"junho/2009 "},{"Codigo":51,"Mes":"maio/2009
+        "},{"Codigo":50,"Mes":"abril/2009 "},{"Codigo":49,"Mes":"março/2009 "},{"Codigo":48,"Mes":"fevereiro/2009
+        "},{"Codigo":47,"Mes":"janeiro/2009 "},{"Codigo":46,"Mes":"dezembro/2008 "},{"Codigo":45,"Mes":"novembro/2008
+        "},{"Codigo":44,"Mes":"outubro/2008 "},{"Codigo":43,"Mes":"setembro/2008 "},{"Codigo":42,"Mes":"agosto/2008
+        "},{"Codigo":41,"Mes":"julho/2008 "},{"Codigo":40,"Mes":"junho/2008 "},{"Codigo":38,"Mes":"maio/2008
+        "},{"Codigo":37,"Mes":"abril/2008 "},{"Codigo":36,"Mes":"março/2008 "},{"Codigo":35,"Mes":"fevereiro/2008
+        "},{"Codigo":34,"Mes":"janeiro/2008 "},{"Codigo":33,"Mes":"dezembro/2007 "},{"Codigo":32,"Mes":"novembro/2007
+        "},{"Codigo":31,"Mes":"outubro/2007 "},{"Codigo":30,"Mes":"setembro/2007 "},{"Codigo":29,"Mes":"agosto/2007
+        "},{"Codigo":28,"Mes":"julho/2007 "},{"Codigo":27,"Mes":"junho/2007 "},{"Codigo":26,"Mes":"maio/2007
+        "},{"Codigo":24,"Mes":"abril/2007 "},{"Codigo":23,"Mes":"março/2007 "},{"Codigo":21,"Mes":"fevereiro/2007
+        "},{"Codigo":20,"Mes":"janeiro/2007 "},{"Codigo":19,"Mes":"dezembro/2006 "},{"Codigo":18,"Mes":"novembro/2006
+        "},{"Codigo":17,"Mes":"outubro/2006 "},{"Codigo":16,"Mes":"setembro/2006 "},{"Codigo":15,"Mes":"agosto/2006
+        "},{"Codigo":14,"Mes":"julho/2006 "},{"Codigo":13,"Mes":"junho/2006 "},{"Codigo":12,"Mes":"maio/2006
+        "},{"Codigo":11,"Mes":"abril/2006 "},{"Codigo":10,"Mes":"março/2006 "},{"Codigo":9,"Mes":"fevereiro/2006
+        "},{"Codigo":8,"Mes":"janeiro/2006 "},{"Codigo":111,"Mes":"dezembro/2005 "},{"Codigo":6,"Mes":"novembro/2005
+        "},{"Codigo":2,"Mes":"outubro/2005 "},{"Codigo":1,"Mes":"setembro/2005 "},{"Codigo":7,"Mes":"agosto/2005
+        "},{"Codigo":25,"Mes":"julho/2005 "},{"Codigo":116,"Mes":"junho/2005 "},{"Codigo":115,"Mes":"maio/2005
+        "},{"Codigo":114,"Mes":"abril/2005 "},{"Codigo":113,"Mes":"março/2005 "},{"Codigo":112,"Mes":"fevereiro/2005
+        "},{"Codigo":110,"Mes":"janeiro/2005 "},{"Codigo":101,"Mes":"dezembro/2004
+        "},{"Codigo":100,"Mes":"novembro/2004 "},{"Codigo":99,"Mes":"outubro/2004
+        "},{"Codigo":109,"Mes":"setembro/2004 "},{"Codigo":108,"Mes":"agosto/2004
+        "},{"Codigo":107,"Mes":"julho/2004 "},{"Codigo":106,"Mes":"junho/2004 "},{"Codigo":105,"Mes":"maio/2004
+        "},{"Codigo":104,"Mes":"abril/2004 "},{"Codigo":103,"Mes":"março/2004 "},{"Codigo":102,"Mes":"fevereiro/2004
+        "},{"Codigo":98,"Mes":"janeiro/2004 "},{"Codigo":89,"Mes":"dezembro/2003 "},{"Codigo":88,"Mes":"novembro/2003
+        "},{"Codigo":87,"Mes":"outubro/2003 "},{"Codigo":97,"Mes":"setembro/2003 "},{"Codigo":96,"Mes":"agosto/2003
+        "},{"Codigo":95,"Mes":"julho/2003 "},{"Codigo":94,"Mes":"junho/2003 "},{"Codigo":93,"Mes":"maio/2003
+        "},{"Codigo":92,"Mes":"abril/2003 "},{"Codigo":91,"Mes":"março/2003 "},{"Codigo":90,"Mes":"fevereiro/2003
+        "},{"Codigo":86,"Mes":"janeiro/2003 "},{"Codigo":77,"Mes":"dezembro/2002 "},{"Codigo":76,"Mes":"novembro/2002
+        "},{"Codigo":75,"Mes":"outubro/2002 "},{"Codigo":85,"Mes":"setembro/2002 "},{"Codigo":84,"Mes":"agosto/2002
+        "},{"Codigo":83,"Mes":"julho/2002 "},{"Codigo":82,"Mes":"junho/2002 "},{"Codigo":81,"Mes":"maio/2002
+        "},{"Codigo":80,"Mes":"abril/2002 "},{"Codigo":79,"Mes":"março/2002 "},{"Codigo":78,"Mes":"fevereiro/2002
+        "},{"Codigo":74,"Mes":"janeiro/2002 "},{"Codigo":66,"Mes":"dezembro/2001 "},{"Codigo":65,"Mes":"novembro/2001
+        "},{"Codigo":64,"Mes":"outubro/2001 "},{"Codigo":73,"Mes":"setembro/2001 "},{"Codigo":72,"Mes":"agosto/2001
+        "},{"Codigo":71,"Mes":"julho/2001 "},{"Codigo":70,"Mes":"junho/2001 "},{"Codigo":69,"Mes":"maio/2001
+        "},{"Codigo":68,"Mes":"abril/2001 "},{"Codigo":67,"Mes":"março/2001 "},{"Codigo":63,"Mes":"fevereiro/2001
+        "},{"Codigo":62,"Mes":"janeiro/2001 "}]'
+  recorded_at: Fri, 13 Nov 2020 23:29:04 GMT
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarModelos?codigoMarca=6&codigoTabelaReferencia=262&codigoTipoVeiculo=1
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.5; path=/
+      - __cfduid=d6d9c6e1fcdd0161c13efe1bb738a96811605310144; expires=Sun, 13-Dec-20
+        23:29:04 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:04 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589f8920000f61f2698c000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=1KyjYh5K%2BqCIswXNaYXI%2BLvrvZUDi4Pa7JEJHr4EoxN6xVqPYzB8IRKo66J9lynMtNiMi3lxDPgauSAI1FNQYy9TRNVuEW9XupAs7Fxk6DRMm3DWwQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45d41db0f61f-GRU
+    body:
+      encoding: UTF-8
+      string: '{"Modelos":[{"Label":"100 2.8 V6","Value":43},{"Label":"100 2.8 V6
+        Avant","Value":44},{"Label":"100 S-4 2.2 Avant Turbo","Value":45},{"Label":"80
+        2.0","Value":46},{"Label":"80 2.0 Avant","Value":47},{"Label":"80 2.6/ 2.8","Value":48},{"Label":"80
+        2.6/2.8 Avant","Value":49},{"Label":"80 2.8 Cabriolet","Value":50},{"Label":"80
+        S2 Avant","Value":51},{"Label":"A1 1.4 TFSI 122cv S-tronic 3p","Value":5496},{"Label":"A1
+        2.0 TFSI Quattro 256cv 3p","Value":6293},{"Label":"A1 Sport 1.4 TFSI 185cv
+        3p S-tronic","Value":6143},{"Label":"A1 Sport. S Edition 1.4 TFSI 5p S-tronic","Value":7727},{"Label":"A1
+        Sportback 1.4 TFSI 185cv 5p S-tronic","Value":6201},{"Label":"A1 Sportback
+        1.4 TFSI 5p S-tronic","Value":6200},{"Label":"A1 Sportback 1.8 TFSI 192cv
+        5p S-tronic","Value":7418},{"Label":"A3 1.6 3p","Value":52},{"Label":"A3 1.6
+        3p Aut.","Value":53},{"Label":"A3 1.6 5p","Value":54},{"Label":"A3 1.6 5p
+        Aut.","Value":55},{"Label":"A3 1.6 8V 102cv 3p","Value":4154},{"Label":"A3
+        1.8 3p","Value":56},{"Label":"A3 1.8 3p Aut.","Value":57},{"Label":"A3 1.8
+        5p Aut.","Value":58},{"Label":"A3 1.8 5p Mec.","Value":59},{"Label":"A3 1.8
+        Turbo 180cv 3p Aut./ Tip.","Value":60},{"Label":"A3 1.8 Turbo 180cv 3p Mec.","Value":61},{"Label":"A3
+        1.8 Turbo 180cv 5p Aut./ Tip.","Value":62},{"Label":"A3 1.8 Turbo 180cv 5p
+        Mec.","Value":63},{"Label":"A3 1.8 Turbo 3p Aut.","Value":64},{"Label":"A3
+        1.8 Turbo 3p Mec.","Value":65},{"Label":"A3 1.8 Turbo 5p Aut.","Value":66},{"Label":"A3
+        1.8 Turbo 5p Mec.","Value":67},{"Label":"A3 Cabriolet 1.8 16V TFSI 180cv S-tronic","Value":6950},{"Label":"A3
+        Cabriolet Ambition 2.0 TFSI S-tronic","Value":8227},{"Label":"A3 Cabriolet
+        Perfor. 2.0 TFSI S-tronic","Value":8559},{"Label":"A3 Sed. Ambition 2.0 TSFI
+        220cv S-tronic","Value":7419},{"Label":"A3 Sed. P. Plus Tech 1.4 Flex TFSI
+        Tip.","Value":8945},{"Label":"A3 Sed. P.Plus 1.4 25Anos Flex TFSI Tip.","Value":8768},{"Label":"A3
+        Sed. Perform. Black 2.0 TFSI S-tronic","Value":8983},{"Label":"A3 Sed.1.8/1.8
+        Ambit.16V TB FSI S-tronic","Value":6689},{"Label":"A3 Sedan 1.4 TFSI Flex
+        Tiptronic 4p","Value":7391},{"Label":"A3 Sedan 1.4/ Attra. 16V TB FSI S-tronic","Value":6768},{"Label":"A3
+        Sedan Performance 2.0 TFSI S-tronic","Value":8560},{"Label":"A3 Sedan Prestige
+        1.4 TFSI Flex Tip.","Value":8561},{"Label":"A3 Sedan Prestige Plus 1.4 TFSI
+        Flex Tip","Value":8562},{"Label":"A3 Sport 1.8 16V TFSI S-tronic 3p","Value":6461},{"Label":"A3
+        Sport 2.0 16V TFSI S- tronic","Value":5125},{"Label":"A3 Sportb. Prestige
+        Plus 1.4 TFSI S-tron","Value":8563},{"Label":"A3 Sportback 1.4 TFSI S-tronic","Value":6510},{"Label":"A3
+        Sportback 1.6 8V 102cv 5p","Value":4155},{"Label":"A3 Sportback 1.8 16V TFSI
+        S-tronic 5p","Value":6511},{"Label":"A3 Sportback 2.0 16V TFSI Mec.","Value":4156},{"Label":"A3
+        Sportback 2.0 16V TFSI S-tronic","Value":4157},{"Label":"A4 1.8  Aut.","Value":68},{"Label":"A4
+        1.8  Mec.","Value":69},{"Label":"A4 1.8 Avant Aut.","Value":70},{"Label":"A4
+        1.8 Avant Mec.","Value":71},{"Label":"A4 1.8 Avant Turbo Mec.","Value":72},{"Label":"A4
+        1.8 Avant Turbo Tip./ Multitronic","Value":73},{"Label":"A4 1.8 Tip./ Multitronic
+        Turbo","Value":74},{"Label":"A4 1.8 Turbo","Value":75},{"Label":"A4 2.0 16V
+        TFSI 183/180cv Multitronic","Value":4843},{"Label":"A4 2.0 16V TFSI 200/ 214cv
+        Multitronic","Value":4182},{"Label":"A4 2.0 16V TFSI Quattro Stronic","Value":6144},{"Label":"A4
+        2.0 20V 130cv Multitronic 4p","Value":76},{"Label":"A4 2.0 Avant 16V TFSI
+        Quattro Stronic","Value":6145},{"Label":"A4 2.0 Avant Ambie. 2.0 16V TFSi
+        S tron.","Value":7750},{"Label":"A4 2.0 Avant TFSI 183/180cv Multitroni","Value":4844},{"Label":"A4
+        2.0 Avant TFSI 200/214cv Multitron.","Value":4183},{"Label":"A4 2.4 30V Avant
+        Mec.","Value":77},{"Label":"A4 2.4 30V Avant Tip./Multitronic","Value":78},{"Label":"A4
+        2.4 30V Mec.","Value":79},{"Label":"A4 2.4 30V Tip./Multitronic","Value":80},{"Label":"A4
+        2.4 Avant V6 30V Quattro Mec.","Value":81},{"Label":"A4 2.4 Avant V6 30V Quattro
+        Tiptronic","Value":82},{"Label":"A4 2.4 V6 30V Quattro Mec.","Value":83},{"Label":"A4
+        2.4 V6 30V Quattro Tiptronic","Value":84},{"Label":"A4 2.8","Value":85},{"Label":"A4
+        2.8 30V  Tiptronic/ Aut.","Value":86},{"Label":"A4 2.8 30V Mec.","Value":87},{"Label":"A4
+        2.8 Avant V6 12V","Value":88},{"Label":"A4 2.8 Avant V6 30V Mec.","Value":89},{"Label":"A4
+        2.8 Avant V6 30V Quattro Mec.","Value":90},{"Label":"A4 2.8 Avant V6 30V Quattro
+        Tiptronic","Value":91},{"Label":"A4 2.8 Avant V6 30V Tiptronic","Value":92},{"Label":"A4
+        2.8 V6 30V  Quattro Tiptronic","Value":93},{"Label":"A4 2.8 V6 30V Quattro
+        Mec.","Value":94},{"Label":"A4 3.0 30V 218cv Multitronic 4p","Value":95},{"Label":"A4
+        3.0 30V 218cv Quattro Tiptron./Aut 4p","Value":96},{"Label":"A4 3.0 Avant
+        30V 218cv Multitronic 5p","Value":97},{"Label":"A4 3.0 Avant 30V 218cv Quattro
+        Tiptronic","Value":98},{"Label":"A4 3.0 Cabriolet 30V 218cv Multitronic","Value":99},{"Label":"A4
+        3.2 FSI 24V 255cv Multitronic","Value":4286},{"Label":"A4 3.2 FSI 24V 269cv
+        Quattro Tiptronic","Value":4731},{"Label":"A4 3.2 FSI Avant 24V 255cv Multitronic","Value":4287},{"Label":"A4
+        3.2 FSI Avant 24V Quattro S Tronic","Value":4935},{"Label":"A4 3.2 FSI Cabriolet
+        24V 255cv Multitron","Value":4288},{"Label":"A4 Ambiente 2.0 TFSI 190cv S
+        tronic","Value":7717},{"Label":"A4 Ambition 2.0 TFSI Quattro S tronic","Value":7894},{"Label":"A4
+        Attraction 2.0 TFSI 190cv S tronic","Value":7656},{"Label":"A4 Avant Lim.
+        Ed. 2.0 TFSI S tronic","Value":8228},{"Label":"A4 Avant Prest. Plus 2.0 TFSI
+        S-tronic","Value":8769},{"Label":"A4 Launch Edition 2.0 TFSI 190cv S troni","Value":7537},{"Label":"A4
+        Limited Edition 2.0 TFSI S tronic","Value":8229},{"Label":"A4 Prestige 2.0
+        TFSI 190cv S-tronic","Value":8770},{"Label":"A4 Prestige Plus 2.0 TFSI 190cv
+        S tronic","Value":8771},{"Label":"A5 3.2 FSI 24V 269cv Multitronic","Value":4798},{"Label":"A5
+        3.2 FSI V6 24V 269cv Quattro Tiptroni","Value":5126},{"Label":"A5 Ambiente
+        Sportb. 2.0 TFSI S tonic","Value":7999},{"Label":"A5 Ambit. Plus Sport. 2.0
+        TFSI S tronic","Value":8000},{"Label":"A5 Ambit. Sport. 2.0 TFSI S tronic","Value":8001},{"Label":"A5
+        Attraction Sportb. 2.0 TFSI S tronic","Value":8002},{"Label":"A5 Cabriolet
+        2.0 TFSI Quattro Stronic","Value":6082},{"Label":"A5 Coupê 2.0 TFSI Quattro
+        Stronic","Value":6083},{"Label":"A5 Sportb. 2.0 16V TFSI Quat. S-tronic","Value":6084},{"Label":"A5
+        Sportb. Perf. 2.0 TFSI Quat. S-tronic","Value":8564},{"Label":"A5 Sportb.
+        Prestige 2.0 16V TFSI S-troni","Value":8565},{"Label":"A5 Sportb.Perf.B. 2.0
+        TFSI Quat. S-troni","Value":8566},{"Label":"A5 Sportb.Prestige Plus 2.0 TFSI
+        S-tronc","Value":8567},{"Label":"A5 Sportback 1.8 TFSI 170cv Multi.","Value":7022},{"Label":"A5
+        Sportback 2.0 16V TFSI 180cv Multi.","Value":6043},{"Label":"A5 Sportback
+        2.0 16V TFSI 211cv Multi.","Value":5234},{"Label":"A5 Sportback S-Line 2.0
+        TFSI S-tronic","Value":8772},{"Label":"A6 2.0 TFSI 252cv S tronic 4p","Value":7254},{"Label":"A6
+        2.4 30V Mec","Value":100},{"Label":"A6 2.4 30V Tip./Multitronic","Value":101},{"Label":"A6
+        2.4 Avant 30V Mec.","Value":102},{"Label":"A6 2.4 Avant 30V Tip./ Multitronic","Value":103},{"Label":"A6
+        2.4 Avant V6 30V Quattro Mec.","Value":104},{"Label":"A6 2.4 Avant V6 30V
+        Quattro Tiptronic","Value":105},{"Label":"A6 2.4 V6 30V Quattro Mec","Value":106},{"Label":"A6
+        2.4 V6 30V Quattro Tiptronic","Value":107},{"Label":"A6 2.7 30V Avant Tiptronic","Value":108},{"Label":"A6
+        2.7 30V Mec.","Value":109},{"Label":"A6 2.7 Avant Quattro Tiptronic","Value":110},{"Label":"A6
+        2.7 Quattro Tiptronic","Value":111},{"Label":"A6 2.8","Value":112},{"Label":"A6
+        2.8 30V Mec.","Value":113},{"Label":"A6 2.8 30V Tiptronic","Value":114},{"Label":"A6
+        2.8 Avant","Value":115},{"Label":"A6 2.8 Avant 30V Mec.","Value":116},{"Label":"A6
+        2.8 Avant 30V Tiptronic","Value":117},{"Label":"A6 2.8 Avant V6 30V Quattro
+        Mec.","Value":118},{"Label":"A6 2.8 Avant V6 30V Quattro Tiptronic","Value":119},{"Label":"A6
+        2.8 V6 30V Quattro Mec.","Value":120},{"Label":"A6 2.8 V6 30V Quattro Tiptronic","Value":121},{"Label":"A6
+        3.0 Avant V6 30V 218cv Multitronic 5p","Value":122},{"Label":"A6 3.0 Avant.
+        TB FSI V6 Quattro Tip. 5p","Value":5374},{"Label":"A6 3.0 Avant.TFSI V6 Quattro
+        S tronic 5p","Value":6413},{"Label":"A6 3.0 TB FSI V6 Quattro Tiptronic","Value":4958},{"Label":"A6
+        3.0 TFSI V6 Quattro S tronic 4p","Value":6414},{"Label":"A6 3.0 V6 30V 218cv
+        Multitronic 4p","Value":123},{"Label":"A6 3.2 FSI 24V 255cv Multitronic","Value":4526},{"Label":"A6
+        4.2 Avant Quattro Tiptronic","Value":124},{"Label":"A6 4.2 Quattro Tiptronic","Value":125},{"Label":"A6
+        Allroad 3.0 TFSI V6 Quattro S tronic","Value":6462},{"Label":"A6 Performance
+        3.0 TFSI Quattro S.tronic","Value":8814},{"Label":"A7 Sportback 2.0 TFSI S
+        Tronic","Value":7447},{"Label":"A7 Sportback 3.0 TFSI Quattro S Tronic","Value":5549},{"Label":"A7
+        Sportback Perf. 3.0 TFSI S-tron Quat.","Value":8815},{"Label":"A8 3.0 TFSI
+        310cv Quattro Tiptronic 4p","Value":7127},{"Label":"A8 4.0 TFSI Quattro Tiptronic","Value":6631},{"Label":"A8
+        4.2 Quattro Tiptronic","Value":126},{"Label":"A8 4.2 V8 32V Tiptronic","Value":127},{"Label":"A8
+        6.0 W12 48V 450cv Quattro Tiptronic","Value":3928},{"Label":"A8 6.3 W12 48V
+        Quattro Tiptronic","Value":5717},{"Label":"Allroad 2.7 30V Quattro Turbo Tiptronic","Value":128},{"Label":"Avant
+        RS2","Value":129},{"Label":"E-TRON Performa. Black Aut. (Elétrico)","Value":9077},{"Label":"E-TRON
+        Performace Aut. (Elétrico)","Value":9078},{"Label":"E-TRON Sportb. Perf.Black
+        Aut.(Elétrico)","Value":9186},{"Label":"E-TRON Sportback Perf. Aut. (Elétrico)","Value":9187},{"Label":"Q3
+        1.4 TFSI/TFSI Flex S-tronic 5p","Value":7255},{"Label":"Q3 2.0 TFSI Quat.
+        170/180cv S-tronic 5p","Value":6044},{"Label":"Q3 2.0 TFSI Quat. 211/220cv
+        S-tronic 5p","Value":6045},{"Label":"Q3 Black Ed. 1.4 TFSI Flex/Black S-tron.","Value":8230},{"Label":"Q3
+        P. Plus 1.4 TFSI Flex/P.Plus S-tronic","Value":8569},{"Label":"Q3 Prest. 1.4
+        TFSI Flex/Prest. S-tronic","Value":8568},{"Label":"Q5 2.0 16V TFSI 225cv Quattro
+        Tiptronic","Value":6573},{"Label":"Q5 2.0 16V TFSI Quattro S Tronic","Value":4936},{"Label":"Q5
+        2.0 TFSI Quattro S tronic (Blindado)","Value":8231},{"Label":"Q5 3.0 V6 TFSI
+        272cv Quattro Tiptronic","Value":6486},{"Label":"Q5 3.2 FSI V6 Quattro S Tronic","Value":4959},{"Label":"Q5
+        Ambiente 2.0 TFSI Quattro S tronic","Value":8036},{"Label":"Q5 Ambition 2.0
+        TFSI Quattro S tronic","Value":8037},{"Label":"Q5 Attraction 2.0 TFSI Quattro
+        S tronic","Value":8038},{"Label":"Q5 Black 2.0 TFSI Quattro S tronic","Value":8583},{"Label":"Q5
+        Prestige 2.0 TFSI Quattro S tronic","Value":8584},{"Label":"Q5 Prestige Plus
+        2.0 TFSI Quat. S tronic","Value":8585},{"Label":"Q5 S-Line 2.0 TFSI Quattro
+        S-tronic","Value":8773},{"Label":"Q7 3.0 V6 TDI Quat.Tip. 5p Die./Perfor.","Value":7917},{"Label":"Q7
+        3.0 V6 TFSI  Quat.Tip.5p/ Performance","Value":5445},{"Label":"Q7 3.6 V6 284cv
+        Quattro Tiptronic","Value":4694},{"Label":"Q7 4.2 V8 40V 350cv Quattro Tiptronic","Value":4184},{"Label":"Q7
+        Perf. Black 3.0 V6 TFSI Quat.Tip. 5p","Value":8659},{"Label":"Q7 Perf.Black
+        3.0 TDI Quat.Tip.5p Dies.","Value":8658},{"Label":"Q7 S-Line 3.0 V6 TFSI Quattro
+        Tiptronic","Value":9205},{"Label":"Q8 Perf.Bl. 3.0 TFSI Coupe Quat. S-tron.","Value":8774},{"Label":"Q8
+        Perform. 3.0 TFSI Coupe Quat. S-tron.","Value":8775},{"Label":"R8 4.2 V8 426cv
+        Quattro R-tronic","Value":5235},{"Label":"R8 5.2 V10 Quattro R-tronic/S-tronic","Value":5236},{"Label":"R8
+        GT 5.2 V10 560cv Quattro R-tronic","Value":5974},{"Label":"R8 Spyder 5.2 Quattro
+        R-tronic/S-tronic","Value":5550},{"Label":"RS Q3 2.5 TFSI Quattro S-tronic
+        5p","Value":6865},{"Label":"RS3 Sedan 2.5 TFSI Quattro S-tronic","Value":8175},{"Label":"RS3
+        Sportback 2.5 TFSI Quattro S-tronic","Value":5922},{"Label":"RS4 2.7 Avant
+        V6 30V BI-TB Quattro 380cv","Value":130},{"Label":"RS4 2.9 Avant V6 TFSI Quattro
+        Tiptronic","Value":8628},{"Label":"RS4 4.2 Avant 32V FSI Quattro S-tronic","Value":6487},{"Label":"RS5
+        4.2 FSI V8 450cv Quattro S-Tron. 2p","Value":5410},{"Label":"RS5 Coupê 2.9
+        V6 TFSI Quattro Tiptronic","Value":8629},{"Label":"RS6 4.0 Avant TFSI BI-TB
+        Quattro Tip. 5p","Value":6690},{"Label":"RS6 4.2 450cv BI-TB Quattro Tiptronic
+        4p","Value":131},{"Label":"RS6 4.2 Avant  BI-TB Quattro Tiptron. 5p","Value":132},{"Label":"RS6
+        5.0 Avant.FSI V10 Bi-TB Quattro Tip.","Value":5335},{"Label":"RS6 5.0 FSI
+        V10 Bi-TB Quattro Tip.","Value":5336},{"Label":"RS7 Sportback 4.0 TFSI Quattro
+        Tiptronic","Value":6883},{"Label":"S Q5 3.0 V6 TFSI 354cv Quattro Tiptronic","Value":6769},{"Label":"S3
+        1.8 225cv Turbo Quattro","Value":133},{"Label":"S3 Sedan 2.0 TFSI Quattro
+        286cv S-tronic","Value":6951},{"Label":"S3 Sportback 2.0 TFSI Quattro S Tronic","Value":5127},{"Label":"S4
+        2.7 Avant Turbo Quattro","Value":134},{"Label":"S4 2.7 Turbo Quattro Mec.","Value":135},{"Label":"S4
+        3.0 Avant TFSI V6 24V Quattro Stronic","Value":6085},{"Label":"S4 3.0 TFSI
+        V6 24V Quattro Stronic","Value":6086},{"Label":"S4 4.2 Avant V8 40V 344cv
+        Quattro Tipt.","Value":136},{"Label":"S4 4.2 V8 40V 344cv Quattro Tiptronic","Value":137},{"Label":"S5
+        Cabriolet 3.0 TFSI Quattro Stronic","Value":6087},{"Label":"S5 Coupê 3.0 TFSI
+        Quattro Stronic","Value":6088},{"Label":"S5 Sportback 3.0 TFSI Quattro Stronic","Value":6089},{"Label":"S6
+        2.2 20V TB","Value":138},{"Label":"S6 2.2 Avant 20V TB","Value":139},{"Label":"S6
+        4.0 TFSI Quattro S-Tronic 4p","Value":7302},{"Label":"S6 4.2 Avant V8 40V
+        Quattro Tiptronic","Value":140},{"Label":"S6 4.2 V8 40V Quattro Mec","Value":141},{"Label":"S6
+        4.2 V8 40V Quattro Tiptronic","Value":142},{"Label":"S6 5.2 Avant FSI V10
+        435cv Quattro Tiptr","Value":5186},{"Label":"S6 5.2 FSI V10 435cv Quattro
+        Tiptronic","Value":5187},{"Label":"S6 Plus 4.2 Avant V8 32V","Value":143},{"Label":"S6
+        Plus 4.2 V8 32V","Value":144},{"Label":"S7 4.0 TFSI 420/450cv Quattro S-tronic","Value":6632},{"Label":"S8
+        4.0 TFSI Quattro Tiptronic 4p","Value":7128},{"Label":"S8 4.2 Mec","Value":145},{"Label":"S8
+        4.2 Quattro Mec.","Value":146},{"Label":"S8 4.2 Quattro Tiptronic","Value":147},{"Label":"S8
+        4.2 Tiptronic","Value":148},{"Label":"TT 1.8 TB 180cv","Value":149},{"Label":"TT
+        1.8 TB Quattro 225cv","Value":150},{"Label":"TT 2.0 16v TFSI S-Tronic","Value":4330},{"Label":"TT
+        Roadster 1.8 TB Quattro 225cv (Conv.)","Value":151},{"Label":"TT Roadster
+        2.0 16v TFSI S-Tronic","Value":4431},{"Label":"TTRS 2.5 TFSI QUATTRO S Tronic","Value":6258},{"Label":"TTRS
+        Roadster 2.5 TB FSI Quat. S Tronic","Value":6259},{"Label":"TTS 2.0 TFSI QUATTRO
+        S Tronic","Value":5128},{"Label":"TTS Roadster 2.0 TB FSI Quattro S Tronic","Value":5129}],"Anos":[{"Label":"32000
+        Gasolina","Value":"32000-1"},{"Label":"32000 Diesel","Value":"32000-3"},{"Label":"2021
+        Gasolina","Value":"2021-1"},{"Label":"2020 Gasolina","Value":"2020-1"},{"Label":"2019
+        Gasolina","Value":"2019-1"},{"Label":"2019 Diesel","Value":"2019-3"},{"Label":"2018
+        Gasolina","Value":"2018-1"},{"Label":"2018 Diesel","Value":"2018-3"},{"Label":"2017
+        Gasolina","Value":"2017-1"},{"Label":"2017 Diesel","Value":"2017-3"},{"Label":"2016
+        Gasolina","Value":"2016-1"},{"Label":"2015 Gasolina","Value":"2015-1"},{"Label":"2014
+        Gasolina","Value":"2014-1"},{"Label":"2013 Gasolina","Value":"2013-1"},{"Label":"2012
+        Gasolina","Value":"2012-1"},{"Label":"2011 Gasolina","Value":"2011-1"},{"Label":"2010
+        Gasolina","Value":"2010-1"},{"Label":"2009 Gasolina","Value":"2009-1"},{"Label":"2008
+        Gasolina","Value":"2008-1"},{"Label":"2007 Gasolina","Value":"2007-1"},{"Label":"2006
+        Gasolina","Value":"2006-1"},{"Label":"2005 Gasolina","Value":"2005-1"},{"Label":"2004
+        Gasolina","Value":"2004-1"},{"Label":"2003 Gasolina","Value":"2003-1"},{"Label":"2002
+        Gasolina","Value":"2002-1"},{"Label":"2001 Gasolina","Value":"2001-1"},{"Label":"2000
+        Gasolina","Value":"2000-1"},{"Label":"1999 Gasolina","Value":"1999-1"},{"Label":"1998
+        Gasolina","Value":"1998-1"},{"Label":"1997 Gasolina","Value":"1997-1"},{"Label":"1996
+        Gasolina","Value":"1996-1"},{"Label":"1995 Gasolina","Value":"1995-1"},{"Label":"1994
+        Gasolina","Value":"1994-1"},{"Label":"1993 Gasolina","Value":"1993-1"}]}'
+  recorded_at: Fri, 13 Nov 2020 23:29:04 GMT
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarTabelaDeReferencia
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.5; path=/
+      - __cfduid=da7018bb26bf658a41a30a89e43c1e22d1605310144; expires=Sun, 13-Dec-20
+        23:29:04 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:04 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589f8f50000f3bf2ca69000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=mxpf%2Bf%2BxoLC2mbPvxmFY7YH%2BoQWQsxFimHea8nT4vO8%2Bh6%2BhC7vguyYSfHhOFZN6zVK5%2FqCoBbZJWAnYRr5Pe5799%2BWULD%2Bc17TH5yKtCcL4YDHqwA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45d4b9fcf3bf-GRU
+    body:
+      encoding: UTF-8
+      string: '[{"Codigo":262,"Mes":"novembro/2020 "},{"Codigo":261,"Mes":"outubro/2020
+        "},{"Codigo":260,"Mes":"setembro/2020 "},{"Codigo":259,"Mes":"agosto/2020
+        "},{"Codigo":258,"Mes":"julho/2020 "},{"Codigo":256,"Mes":"junho/2020 "},{"Codigo":255,"Mes":"maio/2020
+        "},{"Codigo":253,"Mes":"abril/2020 "},{"Codigo":252,"Mes":"março/2020 "},{"Codigo":251,"Mes":"fevereiro/2020
+        "},{"Codigo":250,"Mes":"janeiro/2020 "},{"Codigo":249,"Mes":"dezembro/2019
+        "},{"Codigo":248,"Mes":"novembro/2019 "},{"Codigo":247,"Mes":"outubro/2019
+        "},{"Codigo":246,"Mes":"setembro/2019 "},{"Codigo":245,"Mes":"agosto/2019
+        "},{"Codigo":244,"Mes":"julho/2019 "},{"Codigo":243,"Mes":"junho/2019 "},{"Codigo":242,"Mes":"maio/2019
+        "},{"Codigo":241,"Mes":"abril/2019 "},{"Codigo":239,"Mes":"março/2019 "},{"Codigo":238,"Mes":"fevereiro/2019
+        "},{"Codigo":237,"Mes":"janeiro/2019 "},{"Codigo":236,"Mes":"dezembro/2018
+        "},{"Codigo":235,"Mes":"novembro/2018 "},{"Codigo":234,"Mes":"outubro/2018
+        "},{"Codigo":233,"Mes":"setembro/2018 "},{"Codigo":232,"Mes":"agosto/2018
+        "},{"Codigo":231,"Mes":"julho/2018 "},{"Codigo":230,"Mes":"junho/2018 "},{"Codigo":229,"Mes":"maio/2018
+        "},{"Codigo":228,"Mes":"abril/2018 "},{"Codigo":227,"Mes":"março/2018 "},{"Codigo":226,"Mes":"fevereiro/2018
+        "},{"Codigo":225,"Mes":"janeiro/2018 "},{"Codigo":224,"Mes":"dezembro/2017
+        "},{"Codigo":219,"Mes":"novembro/2017 "},{"Codigo":218,"Mes":"outubro/2017
+        "},{"Codigo":217,"Mes":"setembro/2017 "},{"Codigo":216,"Mes":"agosto/2017
+        "},{"Codigo":215,"Mes":"julho/2017 "},{"Codigo":214,"Mes":"junho/2017 "},{"Codigo":212,"Mes":"maio/2017
+        "},{"Codigo":211,"Mes":"abril/2017 "},{"Codigo":207,"Mes":"março/2017 "},{"Codigo":205,"Mes":"fevereiro/2017
+        "},{"Codigo":202,"Mes":"janeiro/2017 "},{"Codigo":200,"Mes":"dezembro/2016
+        "},{"Codigo":198,"Mes":"novembro/2016 "},{"Codigo":197,"Mes":"outubro/2016
+        "},{"Codigo":196,"Mes":"setembro/2016 "},{"Codigo":194,"Mes":"agosto/2016
+        "},{"Codigo":193,"Mes":"julho/2016 "},{"Codigo":192,"Mes":"junho/2016 "},{"Codigo":191,"Mes":"maio/2016
+        "},{"Codigo":190,"Mes":"abril/2016 "},{"Codigo":189,"Mes":"março/2016 "},{"Codigo":188,"Mes":"fevereiro/2016
+        "},{"Codigo":187,"Mes":"janeiro/2016 "},{"Codigo":186,"Mes":"dezembro/2015
+        "},{"Codigo":185,"Mes":"novembro/2015 "},{"Codigo":184,"Mes":"outubro/2015
+        "},{"Codigo":183,"Mes":"setembro/2015 "},{"Codigo":182,"Mes":"agosto/2015
+        "},{"Codigo":181,"Mes":"julho/2015 "},{"Codigo":180,"Mes":"junho/2015 "},{"Codigo":179,"Mes":"maio/2015
+        "},{"Codigo":178,"Mes":"abril/2015 "},{"Codigo":176,"Mes":"março/2015 "},{"Codigo":175,"Mes":"fevereiro/2015
+        "},{"Codigo":174,"Mes":"janeiro/2015 "},{"Codigo":173,"Mes":"dezembro/2014
+        "},{"Codigo":172,"Mes":"novembro/2014 "},{"Codigo":171,"Mes":"outubro/2014
+        "},{"Codigo":170,"Mes":"setembro/2014 "},{"Codigo":169,"Mes":"agosto/2014
+        "},{"Codigo":168,"Mes":"julho/2014 "},{"Codigo":167,"Mes":"junho/2014 "},{"Codigo":166,"Mes":"maio/2014
+        "},{"Codigo":165,"Mes":"abril/2014 "},{"Codigo":164,"Mes":"março/2014 "},{"Codigo":163,"Mes":"fevereiro/2014
+        "},{"Codigo":162,"Mes":"janeiro/2014 "},{"Codigo":161,"Mes":"dezembro/2013
+        "},{"Codigo":160,"Mes":"novembro/2013 "},{"Codigo":159,"Mes":"outubro/2013
+        "},{"Codigo":158,"Mes":"setembro/2013 "},{"Codigo":157,"Mes":"agosto/2013
+        "},{"Codigo":156,"Mes":"julho/2013 "},{"Codigo":155,"Mes":"junho/2013 "},{"Codigo":154,"Mes":"maio/2013
+        "},{"Codigo":153,"Mes":"abril/2013 "},{"Codigo":152,"Mes":"março/2013 "},{"Codigo":151,"Mes":"fevereiro/2013
+        "},{"Codigo":150,"Mes":"janeiro/2013 "},{"Codigo":149,"Mes":"dezembro/2012
+        "},{"Codigo":148,"Mes":"novembro/2012 "},{"Codigo":147,"Mes":"outubro/2012
+        "},{"Codigo":146,"Mes":"setembro/2012 "},{"Codigo":145,"Mes":"agosto/2012
+        "},{"Codigo":144,"Mes":"julho/2012 "},{"Codigo":143,"Mes":"junho/2012 "},{"Codigo":142,"Mes":"maio/2012
+        "},{"Codigo":141,"Mes":"abril/2012 "},{"Codigo":140,"Mes":"março/2012 "},{"Codigo":139,"Mes":"fevereiro/2012
+        "},{"Codigo":138,"Mes":"janeiro/2012 "},{"Codigo":137,"Mes":"dezembro/2011
+        "},{"Codigo":136,"Mes":"novembro/2011 "},{"Codigo":135,"Mes":"outubro/2011
+        "},{"Codigo":134,"Mes":"setembro/2011 "},{"Codigo":133,"Mes":"agosto/2011
+        "},{"Codigo":132,"Mes":"julho/2011 "},{"Codigo":131,"Mes":"junho/2011 "},{"Codigo":130,"Mes":"maio/2011
+        "},{"Codigo":129,"Mes":"abril/2011 "},{"Codigo":128,"Mes":"março/2011 "},{"Codigo":127,"Mes":"fevereiro/2011
+        "},{"Codigo":126,"Mes":"janeiro/2011 "},{"Codigo":125,"Mes":"dezembro/2010
+        "},{"Codigo":124,"Mes":"novembro/2010 "},{"Codigo":123,"Mes":"outubro/2010
+        "},{"Codigo":122,"Mes":"setembro/2010 "},{"Codigo":121,"Mes":"agosto/2010
+        "},{"Codigo":120,"Mes":"julho/2010 "},{"Codigo":119,"Mes":"junho/2010 "},{"Codigo":118,"Mes":"maio/2010
+        "},{"Codigo":117,"Mes":"abril/2010 "},{"Codigo":61,"Mes":"março/2010 "},{"Codigo":60,"Mes":"fevereiro/2010
+        "},{"Codigo":59,"Mes":"janeiro/2010 "},{"Codigo":58,"Mes":"dezembro/2009 "},{"Codigo":57,"Mes":"novembro/2009
+        "},{"Codigo":56,"Mes":"outubro/2009 "},{"Codigo":55,"Mes":"setembro/2009 "},{"Codigo":54,"Mes":"agosto/2009
+        "},{"Codigo":53,"Mes":"julho/2009 "},{"Codigo":52,"Mes":"junho/2009 "},{"Codigo":51,"Mes":"maio/2009
+        "},{"Codigo":50,"Mes":"abril/2009 "},{"Codigo":49,"Mes":"março/2009 "},{"Codigo":48,"Mes":"fevereiro/2009
+        "},{"Codigo":47,"Mes":"janeiro/2009 "},{"Codigo":46,"Mes":"dezembro/2008 "},{"Codigo":45,"Mes":"novembro/2008
+        "},{"Codigo":44,"Mes":"outubro/2008 "},{"Codigo":43,"Mes":"setembro/2008 "},{"Codigo":42,"Mes":"agosto/2008
+        "},{"Codigo":41,"Mes":"julho/2008 "},{"Codigo":40,"Mes":"junho/2008 "},{"Codigo":38,"Mes":"maio/2008
+        "},{"Codigo":37,"Mes":"abril/2008 "},{"Codigo":36,"Mes":"março/2008 "},{"Codigo":35,"Mes":"fevereiro/2008
+        "},{"Codigo":34,"Mes":"janeiro/2008 "},{"Codigo":33,"Mes":"dezembro/2007 "},{"Codigo":32,"Mes":"novembro/2007
+        "},{"Codigo":31,"Mes":"outubro/2007 "},{"Codigo":30,"Mes":"setembro/2007 "},{"Codigo":29,"Mes":"agosto/2007
+        "},{"Codigo":28,"Mes":"julho/2007 "},{"Codigo":27,"Mes":"junho/2007 "},{"Codigo":26,"Mes":"maio/2007
+        "},{"Codigo":24,"Mes":"abril/2007 "},{"Codigo":23,"Mes":"março/2007 "},{"Codigo":21,"Mes":"fevereiro/2007
+        "},{"Codigo":20,"Mes":"janeiro/2007 "},{"Codigo":19,"Mes":"dezembro/2006 "},{"Codigo":18,"Mes":"novembro/2006
+        "},{"Codigo":17,"Mes":"outubro/2006 "},{"Codigo":16,"Mes":"setembro/2006 "},{"Codigo":15,"Mes":"agosto/2006
+        "},{"Codigo":14,"Mes":"julho/2006 "},{"Codigo":13,"Mes":"junho/2006 "},{"Codigo":12,"Mes":"maio/2006
+        "},{"Codigo":11,"Mes":"abril/2006 "},{"Codigo":10,"Mes":"março/2006 "},{"Codigo":9,"Mes":"fevereiro/2006
+        "},{"Codigo":8,"Mes":"janeiro/2006 "},{"Codigo":111,"Mes":"dezembro/2005 "},{"Codigo":6,"Mes":"novembro/2005
+        "},{"Codigo":2,"Mes":"outubro/2005 "},{"Codigo":1,"Mes":"setembro/2005 "},{"Codigo":7,"Mes":"agosto/2005
+        "},{"Codigo":25,"Mes":"julho/2005 "},{"Codigo":116,"Mes":"junho/2005 "},{"Codigo":115,"Mes":"maio/2005
+        "},{"Codigo":114,"Mes":"abril/2005 "},{"Codigo":113,"Mes":"março/2005 "},{"Codigo":112,"Mes":"fevereiro/2005
+        "},{"Codigo":110,"Mes":"janeiro/2005 "},{"Codigo":101,"Mes":"dezembro/2004
+        "},{"Codigo":100,"Mes":"novembro/2004 "},{"Codigo":99,"Mes":"outubro/2004
+        "},{"Codigo":109,"Mes":"setembro/2004 "},{"Codigo":108,"Mes":"agosto/2004
+        "},{"Codigo":107,"Mes":"julho/2004 "},{"Codigo":106,"Mes":"junho/2004 "},{"Codigo":105,"Mes":"maio/2004
+        "},{"Codigo":104,"Mes":"abril/2004 "},{"Codigo":103,"Mes":"março/2004 "},{"Codigo":102,"Mes":"fevereiro/2004
+        "},{"Codigo":98,"Mes":"janeiro/2004 "},{"Codigo":89,"Mes":"dezembro/2003 "},{"Codigo":88,"Mes":"novembro/2003
+        "},{"Codigo":87,"Mes":"outubro/2003 "},{"Codigo":97,"Mes":"setembro/2003 "},{"Codigo":96,"Mes":"agosto/2003
+        "},{"Codigo":95,"Mes":"julho/2003 "},{"Codigo":94,"Mes":"junho/2003 "},{"Codigo":93,"Mes":"maio/2003
+        "},{"Codigo":92,"Mes":"abril/2003 "},{"Codigo":91,"Mes":"março/2003 "},{"Codigo":90,"Mes":"fevereiro/2003
+        "},{"Codigo":86,"Mes":"janeiro/2003 "},{"Codigo":77,"Mes":"dezembro/2002 "},{"Codigo":76,"Mes":"novembro/2002
+        "},{"Codigo":75,"Mes":"outubro/2002 "},{"Codigo":85,"Mes":"setembro/2002 "},{"Codigo":84,"Mes":"agosto/2002
+        "},{"Codigo":83,"Mes":"julho/2002 "},{"Codigo":82,"Mes":"junho/2002 "},{"Codigo":81,"Mes":"maio/2002
+        "},{"Codigo":80,"Mes":"abril/2002 "},{"Codigo":79,"Mes":"março/2002 "},{"Codigo":78,"Mes":"fevereiro/2002
+        "},{"Codigo":74,"Mes":"janeiro/2002 "},{"Codigo":66,"Mes":"dezembro/2001 "},{"Codigo":65,"Mes":"novembro/2001
+        "},{"Codigo":64,"Mes":"outubro/2001 "},{"Codigo":73,"Mes":"setembro/2001 "},{"Codigo":72,"Mes":"agosto/2001
+        "},{"Codigo":71,"Mes":"julho/2001 "},{"Codigo":70,"Mes":"junho/2001 "},{"Codigo":69,"Mes":"maio/2001
+        "},{"Codigo":68,"Mes":"abril/2001 "},{"Codigo":67,"Mes":"março/2001 "},{"Codigo":63,"Mes":"fevereiro/2001
+        "},{"Codigo":62,"Mes":"janeiro/2001 "}]'
+  recorded_at: Fri, 13 Nov 2020 23:29:04 GMT
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarAnoModelo?codigoMarca=6&codigoModelo=6573&codigoTabelaReferencia=262&codigoTipoVeiculo=1
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.5; path=/
+      - __cfduid=d4539d5f8b293844f832baf19663a12751605310144; expires=Sun, 13-Dec-20
+        23:29:04 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:05 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589f9520000f65f18991000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=UcFg634mbRVH0N21kh7MjLUElg1BC75SfTvhHFIipeadS0ytuPMo1YcavuciaxdIcnllsSuMLaE0WWbVddPaXg0ZXBsLv0e%2FyyFxbS%2FS9HuPA2t5iA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45d54c0ff65f-GRU
+    body:
+      encoding: UTF-8
+      string: '[{"Label":"2017 Gasolina","Value":"2017-1"},{"Label":"2016 Gasolina","Value":"2016-1"},{"Label":"2015
+        Gasolina","Value":"2015-1"},{"Label":"2014 Gasolina","Value":"2014-1"},{"Label":"2013
+        Gasolina","Value":"2013-1"}]'
+  recorded_at: Fri, 13 Nov 2020 23:29:05 GMT
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarTabelaDeReferencia
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.5; path=/
+      - __cfduid=d0c74f657b0660afd380e2e92d850a77b1605310146; expires=Sun, 13-Dec-20
+        23:29:06 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:06 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589fdd90000f1f2b4989000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=HrbhoPw1rxLFUQt0EeaVe0FFjwpWlRCLUpDRlA5pLt8eMiO9e7Bn73rOAtlfrAQBLIFvbN%2F1UffBk20lvEbmJ3K4PkgJgSCW0Yv0SHPDM9gejd2aPg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45dc8d4cf1f2-GRU
+    body:
+      encoding: UTF-8
+      string: '[{"Codigo":262,"Mes":"novembro/2020 "},{"Codigo":261,"Mes":"outubro/2020
+        "},{"Codigo":260,"Mes":"setembro/2020 "},{"Codigo":259,"Mes":"agosto/2020
+        "},{"Codigo":258,"Mes":"julho/2020 "},{"Codigo":256,"Mes":"junho/2020 "},{"Codigo":255,"Mes":"maio/2020
+        "},{"Codigo":253,"Mes":"abril/2020 "},{"Codigo":252,"Mes":"março/2020 "},{"Codigo":251,"Mes":"fevereiro/2020
+        "},{"Codigo":250,"Mes":"janeiro/2020 "},{"Codigo":249,"Mes":"dezembro/2019
+        "},{"Codigo":248,"Mes":"novembro/2019 "},{"Codigo":247,"Mes":"outubro/2019
+        "},{"Codigo":246,"Mes":"setembro/2019 "},{"Codigo":245,"Mes":"agosto/2019
+        "},{"Codigo":244,"Mes":"julho/2019 "},{"Codigo":243,"Mes":"junho/2019 "},{"Codigo":242,"Mes":"maio/2019
+        "},{"Codigo":241,"Mes":"abril/2019 "},{"Codigo":239,"Mes":"março/2019 "},{"Codigo":238,"Mes":"fevereiro/2019
+        "},{"Codigo":237,"Mes":"janeiro/2019 "},{"Codigo":236,"Mes":"dezembro/2018
+        "},{"Codigo":235,"Mes":"novembro/2018 "},{"Codigo":234,"Mes":"outubro/2018
+        "},{"Codigo":233,"Mes":"setembro/2018 "},{"Codigo":232,"Mes":"agosto/2018
+        "},{"Codigo":231,"Mes":"julho/2018 "},{"Codigo":230,"Mes":"junho/2018 "},{"Codigo":229,"Mes":"maio/2018
+        "},{"Codigo":228,"Mes":"abril/2018 "},{"Codigo":227,"Mes":"março/2018 "},{"Codigo":226,"Mes":"fevereiro/2018
+        "},{"Codigo":225,"Mes":"janeiro/2018 "},{"Codigo":224,"Mes":"dezembro/2017
+        "},{"Codigo":219,"Mes":"novembro/2017 "},{"Codigo":218,"Mes":"outubro/2017
+        "},{"Codigo":217,"Mes":"setembro/2017 "},{"Codigo":216,"Mes":"agosto/2017
+        "},{"Codigo":215,"Mes":"julho/2017 "},{"Codigo":214,"Mes":"junho/2017 "},{"Codigo":212,"Mes":"maio/2017
+        "},{"Codigo":211,"Mes":"abril/2017 "},{"Codigo":207,"Mes":"março/2017 "},{"Codigo":205,"Mes":"fevereiro/2017
+        "},{"Codigo":202,"Mes":"janeiro/2017 "},{"Codigo":200,"Mes":"dezembro/2016
+        "},{"Codigo":198,"Mes":"novembro/2016 "},{"Codigo":197,"Mes":"outubro/2016
+        "},{"Codigo":196,"Mes":"setembro/2016 "},{"Codigo":194,"Mes":"agosto/2016
+        "},{"Codigo":193,"Mes":"julho/2016 "},{"Codigo":192,"Mes":"junho/2016 "},{"Codigo":191,"Mes":"maio/2016
+        "},{"Codigo":190,"Mes":"abril/2016 "},{"Codigo":189,"Mes":"março/2016 "},{"Codigo":188,"Mes":"fevereiro/2016
+        "},{"Codigo":187,"Mes":"janeiro/2016 "},{"Codigo":186,"Mes":"dezembro/2015
+        "},{"Codigo":185,"Mes":"novembro/2015 "},{"Codigo":184,"Mes":"outubro/2015
+        "},{"Codigo":183,"Mes":"setembro/2015 "},{"Codigo":182,"Mes":"agosto/2015
+        "},{"Codigo":181,"Mes":"julho/2015 "},{"Codigo":180,"Mes":"junho/2015 "},{"Codigo":179,"Mes":"maio/2015
+        "},{"Codigo":178,"Mes":"abril/2015 "},{"Codigo":176,"Mes":"março/2015 "},{"Codigo":175,"Mes":"fevereiro/2015
+        "},{"Codigo":174,"Mes":"janeiro/2015 "},{"Codigo":173,"Mes":"dezembro/2014
+        "},{"Codigo":172,"Mes":"novembro/2014 "},{"Codigo":171,"Mes":"outubro/2014
+        "},{"Codigo":170,"Mes":"setembro/2014 "},{"Codigo":169,"Mes":"agosto/2014
+        "},{"Codigo":168,"Mes":"julho/2014 "},{"Codigo":167,"Mes":"junho/2014 "},{"Codigo":166,"Mes":"maio/2014
+        "},{"Codigo":165,"Mes":"abril/2014 "},{"Codigo":164,"Mes":"março/2014 "},{"Codigo":163,"Mes":"fevereiro/2014
+        "},{"Codigo":162,"Mes":"janeiro/2014 "},{"Codigo":161,"Mes":"dezembro/2013
+        "},{"Codigo":160,"Mes":"novembro/2013 "},{"Codigo":159,"Mes":"outubro/2013
+        "},{"Codigo":158,"Mes":"setembro/2013 "},{"Codigo":157,"Mes":"agosto/2013
+        "},{"Codigo":156,"Mes":"julho/2013 "},{"Codigo":155,"Mes":"junho/2013 "},{"Codigo":154,"Mes":"maio/2013
+        "},{"Codigo":153,"Mes":"abril/2013 "},{"Codigo":152,"Mes":"março/2013 "},{"Codigo":151,"Mes":"fevereiro/2013
+        "},{"Codigo":150,"Mes":"janeiro/2013 "},{"Codigo":149,"Mes":"dezembro/2012
+        "},{"Codigo":148,"Mes":"novembro/2012 "},{"Codigo":147,"Mes":"outubro/2012
+        "},{"Codigo":146,"Mes":"setembro/2012 "},{"Codigo":145,"Mes":"agosto/2012
+        "},{"Codigo":144,"Mes":"julho/2012 "},{"Codigo":143,"Mes":"junho/2012 "},{"Codigo":142,"Mes":"maio/2012
+        "},{"Codigo":141,"Mes":"abril/2012 "},{"Codigo":140,"Mes":"março/2012 "},{"Codigo":139,"Mes":"fevereiro/2012
+        "},{"Codigo":138,"Mes":"janeiro/2012 "},{"Codigo":137,"Mes":"dezembro/2011
+        "},{"Codigo":136,"Mes":"novembro/2011 "},{"Codigo":135,"Mes":"outubro/2011
+        "},{"Codigo":134,"Mes":"setembro/2011 "},{"Codigo":133,"Mes":"agosto/2011
+        "},{"Codigo":132,"Mes":"julho/2011 "},{"Codigo":131,"Mes":"junho/2011 "},{"Codigo":130,"Mes":"maio/2011
+        "},{"Codigo":129,"Mes":"abril/2011 "},{"Codigo":128,"Mes":"março/2011 "},{"Codigo":127,"Mes":"fevereiro/2011
+        "},{"Codigo":126,"Mes":"janeiro/2011 "},{"Codigo":125,"Mes":"dezembro/2010
+        "},{"Codigo":124,"Mes":"novembro/2010 "},{"Codigo":123,"Mes":"outubro/2010
+        "},{"Codigo":122,"Mes":"setembro/2010 "},{"Codigo":121,"Mes":"agosto/2010
+        "},{"Codigo":120,"Mes":"julho/2010 "},{"Codigo":119,"Mes":"junho/2010 "},{"Codigo":118,"Mes":"maio/2010
+        "},{"Codigo":117,"Mes":"abril/2010 "},{"Codigo":61,"Mes":"março/2010 "},{"Codigo":60,"Mes":"fevereiro/2010
+        "},{"Codigo":59,"Mes":"janeiro/2010 "},{"Codigo":58,"Mes":"dezembro/2009 "},{"Codigo":57,"Mes":"novembro/2009
+        "},{"Codigo":56,"Mes":"outubro/2009 "},{"Codigo":55,"Mes":"setembro/2009 "},{"Codigo":54,"Mes":"agosto/2009
+        "},{"Codigo":53,"Mes":"julho/2009 "},{"Codigo":52,"Mes":"junho/2009 "},{"Codigo":51,"Mes":"maio/2009
+        "},{"Codigo":50,"Mes":"abril/2009 "},{"Codigo":49,"Mes":"março/2009 "},{"Codigo":48,"Mes":"fevereiro/2009
+        "},{"Codigo":47,"Mes":"janeiro/2009 "},{"Codigo":46,"Mes":"dezembro/2008 "},{"Codigo":45,"Mes":"novembro/2008
+        "},{"Codigo":44,"Mes":"outubro/2008 "},{"Codigo":43,"Mes":"setembro/2008 "},{"Codigo":42,"Mes":"agosto/2008
+        "},{"Codigo":41,"Mes":"julho/2008 "},{"Codigo":40,"Mes":"junho/2008 "},{"Codigo":38,"Mes":"maio/2008
+        "},{"Codigo":37,"Mes":"abril/2008 "},{"Codigo":36,"Mes":"março/2008 "},{"Codigo":35,"Mes":"fevereiro/2008
+        "},{"Codigo":34,"Mes":"janeiro/2008 "},{"Codigo":33,"Mes":"dezembro/2007 "},{"Codigo":32,"Mes":"novembro/2007
+        "},{"Codigo":31,"Mes":"outubro/2007 "},{"Codigo":30,"Mes":"setembro/2007 "},{"Codigo":29,"Mes":"agosto/2007
+        "},{"Codigo":28,"Mes":"julho/2007 "},{"Codigo":27,"Mes":"junho/2007 "},{"Codigo":26,"Mes":"maio/2007
+        "},{"Codigo":24,"Mes":"abril/2007 "},{"Codigo":23,"Mes":"março/2007 "},{"Codigo":21,"Mes":"fevereiro/2007
+        "},{"Codigo":20,"Mes":"janeiro/2007 "},{"Codigo":19,"Mes":"dezembro/2006 "},{"Codigo":18,"Mes":"novembro/2006
+        "},{"Codigo":17,"Mes":"outubro/2006 "},{"Codigo":16,"Mes":"setembro/2006 "},{"Codigo":15,"Mes":"agosto/2006
+        "},{"Codigo":14,"Mes":"julho/2006 "},{"Codigo":13,"Mes":"junho/2006 "},{"Codigo":12,"Mes":"maio/2006
+        "},{"Codigo":11,"Mes":"abril/2006 "},{"Codigo":10,"Mes":"março/2006 "},{"Codigo":9,"Mes":"fevereiro/2006
+        "},{"Codigo":8,"Mes":"janeiro/2006 "},{"Codigo":111,"Mes":"dezembro/2005 "},{"Codigo":6,"Mes":"novembro/2005
+        "},{"Codigo":2,"Mes":"outubro/2005 "},{"Codigo":1,"Mes":"setembro/2005 "},{"Codigo":7,"Mes":"agosto/2005
+        "},{"Codigo":25,"Mes":"julho/2005 "},{"Codigo":116,"Mes":"junho/2005 "},{"Codigo":115,"Mes":"maio/2005
+        "},{"Codigo":114,"Mes":"abril/2005 "},{"Codigo":113,"Mes":"março/2005 "},{"Codigo":112,"Mes":"fevereiro/2005
+        "},{"Codigo":110,"Mes":"janeiro/2005 "},{"Codigo":101,"Mes":"dezembro/2004
+        "},{"Codigo":100,"Mes":"novembro/2004 "},{"Codigo":99,"Mes":"outubro/2004
+        "},{"Codigo":109,"Mes":"setembro/2004 "},{"Codigo":108,"Mes":"agosto/2004
+        "},{"Codigo":107,"Mes":"julho/2004 "},{"Codigo":106,"Mes":"junho/2004 "},{"Codigo":105,"Mes":"maio/2004
+        "},{"Codigo":104,"Mes":"abril/2004 "},{"Codigo":103,"Mes":"março/2004 "},{"Codigo":102,"Mes":"fevereiro/2004
+        "},{"Codigo":98,"Mes":"janeiro/2004 "},{"Codigo":89,"Mes":"dezembro/2003 "},{"Codigo":88,"Mes":"novembro/2003
+        "},{"Codigo":87,"Mes":"outubro/2003 "},{"Codigo":97,"Mes":"setembro/2003 "},{"Codigo":96,"Mes":"agosto/2003
+        "},{"Codigo":95,"Mes":"julho/2003 "},{"Codigo":94,"Mes":"junho/2003 "},{"Codigo":93,"Mes":"maio/2003
+        "},{"Codigo":92,"Mes":"abril/2003 "},{"Codigo":91,"Mes":"março/2003 "},{"Codigo":90,"Mes":"fevereiro/2003
+        "},{"Codigo":86,"Mes":"janeiro/2003 "},{"Codigo":77,"Mes":"dezembro/2002 "},{"Codigo":76,"Mes":"novembro/2002
+        "},{"Codigo":75,"Mes":"outubro/2002 "},{"Codigo":85,"Mes":"setembro/2002 "},{"Codigo":84,"Mes":"agosto/2002
+        "},{"Codigo":83,"Mes":"julho/2002 "},{"Codigo":82,"Mes":"junho/2002 "},{"Codigo":81,"Mes":"maio/2002
+        "},{"Codigo":80,"Mes":"abril/2002 "},{"Codigo":79,"Mes":"março/2002 "},{"Codigo":78,"Mes":"fevereiro/2002
+        "},{"Codigo":74,"Mes":"janeiro/2002 "},{"Codigo":66,"Mes":"dezembro/2001 "},{"Codigo":65,"Mes":"novembro/2001
+        "},{"Codigo":64,"Mes":"outubro/2001 "},{"Codigo":73,"Mes":"setembro/2001 "},{"Codigo":72,"Mes":"agosto/2001
+        "},{"Codigo":71,"Mes":"julho/2001 "},{"Codigo":70,"Mes":"junho/2001 "},{"Codigo":69,"Mes":"maio/2001
+        "},{"Codigo":68,"Mes":"abril/2001 "},{"Codigo":67,"Mes":"março/2001 "},{"Codigo":63,"Mes":"fevereiro/2001
+        "},{"Codigo":62,"Mes":"janeiro/2001 "}]'
+  recorded_at: Fri, 13 Nov 2020 23:29:06 GMT
+- request:
+    method: post
+    uri: http://veiculos.fipe.org.br/api/veiculos/ConsultarValorComTodosParametros?anoModelo=2017&codigoMarca=6&codigoModelo=6573&codigoTabelaReferencia=262&codigoTipoCombustivel=1&codigoTipoVeiculo=1&tipoConsulta=tradicional&tipoVeiculo=carro
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Referer:
+      - http://veiculos.fipe.org.br/
+      Host:
+      - veiculos.fipe.org.br
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 13 Nov 2020 23:29:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - ROUTEID=.5; path=/
+      - __cfduid=d257d3671c502e299724c8618a75b29c61605310146; expires=Sun, 13-Dec-20
+        23:29:06 GMT; path=/; domain=.fipe.org.br; HttpOnly; SameSite=Lax
+      Cache-Control:
+      - private, s-maxage=0, max-age=10800
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Frame-Options:
+      - sameorigin
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 14 Nov 2020 02:29:06 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '066589fe2c0000f6e31d0da000000001'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=csgdUZGa%2BjdkEiZNh7ojVG%2BOqWxP7z93vGbifXCzXTY7HlCEbkI8cxed1a2UFYOE4UrD%2B9ZE%2BqGjfd1MgLY7mCUOL1KkxVp4RwxFg43P%2FRI89qRt7g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5f1c45dd1a23f6e3-GRU
+    body:
+      encoding: UTF-8
+      string: '{"Valor":"R$ 159.900,00","Marca":"Audi","Modelo":"Q5 2.0 16V TFSI 225cv
+        Quattro Tiptronic","AnoModelo":2017,"Combustivel":"Gasolina","CodigoFipe":"008186-8","MesReferencia":"novembro
+        de 2020 ","Autenticacao":"jcs6wr4rm4c3j","TipoVeiculo":1,"SiglaCombustivel":"G","DataConsulta":"sexta-feira,
+        13 de novembro de 2020 20:29"}'
+  recorded_at: Fri, 13 Nov 2020 23:29:06 GMT
+recorded_with: VCR 6.0.0
