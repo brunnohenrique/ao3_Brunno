@@ -7,6 +7,7 @@ class RentsController < ApplicationController
   end
 
   def create
+    return if incorrect_dates
     @rent = Rent.create(rent_params)
     set_vehicle(@rent.vehicle_id)
     respond_with(@rent)
@@ -27,4 +28,14 @@ class RentsController < ApplicationController
   def set_vehicle(vehicle_id)
     @vehicle = Vehicle.find(vehicle_id)
   end
+
+  def incorrect_dates
+    start_date = rent_params[:start_date].to_date
+    end_date = rent_params[:end_date].to_date
+
+    return if start_date < end_date && start_date >= Date.current
+      
+    redirect_to new_rent_path(vehicle: rent_params[:vehicle_id]), 
+      alert: "Please provide valid date values."
+  end  
 end

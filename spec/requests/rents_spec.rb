@@ -24,6 +24,32 @@ RSpec.describe "Rents", type: :request do
       end
     end
 
+    context 'with start_date before today' do
+      let(:params) do
+        {
+          vehicle_id: vehicle.id,
+          cpf: '12345678912',
+          start_date: (Date.current - 1.day).to_s,
+          end_date: (Date.current + 1.day).to_s
+        }
+      end
+
+      it { expect { subject }.not_to change(Rent, :count) }   
+    end
+
+    context 'with end_date before start_date' do
+      let(:params) do
+        {
+          vehicle_id: vehicle.id,
+          cpf: '12345678912',
+          start_date: (Date.current + 10.day).to_s,
+          end_date: (Date.current + 1.day).to_s
+        }
+      end
+
+      it { expect { subject }.not_to change(Rent, :count) }   
+    end       
+
     context 'with valid params' do
       let(:params) do
         {
