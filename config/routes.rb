@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :vehicles
   resources :users
-  resources :rents, only: [:new, :create]
+  resources :rents, only: [:new, :create, :show]
   devise_for :users, :path_prefix => 'ao3'
 
   root to: 'home#index'

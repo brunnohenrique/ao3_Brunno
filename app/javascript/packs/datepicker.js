@@ -1,3 +1,3 @@
-$(document).ready(function(){
-  $('.datepicker').datepicker();
-});  
+document.addEventListener("turbolinks:load", function() {
+   $( ".datepicker" ).datepicker();
+});

@@ -11,8 +11,9 @@
 <div class="card-panel">
   <%= simple_form_for(@rent) do |f| %>
     <%= f.input :cpf %>
-    <%= f.input :start_date, input_html: { class: "datepicker" } %>
-    <%= f.input :end_date, input_html: { class: "datepicker" } %>
+    <%= f.input :start_date, as: :string, input_html: { class: "datepicker" } %>
+    <%= f.input :end_date, as: :string, input_html: { class: "datepicker" } %>
+    <%= f.input :vehicle_id, as: :hidden, input_html: { value: @vehicle.id } %>
     <div class="row mt-2">
       <div class="col-6">
         <%= link_to "Back", root_path, class:"btn btn-secondary" %>

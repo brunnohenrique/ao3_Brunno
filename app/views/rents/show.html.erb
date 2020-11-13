@@ -1,0 +1,12 @@
+<div class="card-panel">
+  <h2><%= @rent.vehicle.model %></h2>
+  <div><b>CPF:</b> <%= @rent.cpf %></div>
+  <div><b>Start Date:</b> <%= @rent.start_date %></div>
+  <div><b>End Date:</b> <%= @rent.end_date %></div>
+</div>
+
+<div class="row mt-2">
+  <div class="col-6">
+    <%= link_to "Back", root_path, class: "btn btn-secondary" %>
+  </div>
+</div>
