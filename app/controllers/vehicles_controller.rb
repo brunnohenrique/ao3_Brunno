@@ -28,12 +28,16 @@ class VehiclesController < ApplicationController
                 vehicle_params[:model], 
                 vehicle_params[:model_year]
               )
-    vehicle_params[:manufacture] = result.year.model.brand.name
-    vehicle_params[:model] = result.year.model.name
-    vehicle_params[:model_year] = result.year.id
-
-    @vehicle = Vehicle.create(vehicle_params)
-    respond_with(@vehicle)
+    if result == 'incorret params'
+      flash[:alert] = result
+      redirect_to new_vehicle_path
+    else
+      vehicle_params[:manufacture] = result.year.model.brand.name
+      vehicle_params[:model] = result.year.model.name
+      vehicle_params[:model_year] = result.year.id
+      @vehicle = Vehicle.create(vehicle_params)
+      respond_with(@vehicle)
+    end
   end
 
   def update

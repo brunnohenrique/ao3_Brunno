@@ -59,11 +59,11 @@ RSpec.describe "Vehicles", type: :request do
     context 'with valid params' do
       let(:params) do
         {
-          model: 'Fusca',
-          manufacture: 'Volkswagen',
+          model: 'Q5',
+          manufacture: 'Audi',
           license_plate: 'ABC-1234',
-          model_year: '1984',
-          manufacture_year: '1982',
+          model_year: '2017',
+          manufacture_year: '2017',
           fuel_type: 'Gasoline',
           color: 'Verde'
         }
@@ -74,8 +74,8 @@ RSpec.describe "Vehicles", type: :request do
       it 'creates a new vehicle attributes' do
         subject
         expect(assigns(:vehicle)).to have_attributes(
-          model: params[:model],
           manufacture: params[:manufacture],
+          model: params[:model],
           license_plate: params[:license_plate],
           model_year: params[:model_year],
           manufacture_year: params[:manufacture_year],
