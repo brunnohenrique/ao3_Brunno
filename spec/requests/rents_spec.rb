@@ -55,8 +55,8 @@ RSpec.describe "Rents", type: :request do
         {
           vehicle_id: vehicle.id,
           cpf: '12345678912',
-          start_date: 'Nov 13, 2020',
-          end_date: 'Nov 20, 2020'
+          start_date: (Date.current + 10.day).to_s,
+          end_date: (Date.current + 15.day).to_s
         }
       end
 
@@ -72,6 +72,20 @@ RSpec.describe "Rents", type: :request do
         )
       end
     end
+
+    context 'with a date already rented with the same car' do
+      let!(:rent) { create(:rent, vehicle: vehicle, start_date: Date.current + 1.day) }
+      let(:params) do
+        {
+          vehicle_id: vehicle.id,
+          cpf: '12345678912',
+          start_date: (Date.current + 1.day).to_s,
+          end_date: (Date.current + 10.day).to_s
+        }
+      end
+
+      it { expect { subject }.not_to change(Rent, :count) }   
+    end       
   end
 
   describe 'GET #show' do
