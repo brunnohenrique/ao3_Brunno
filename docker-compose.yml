@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - database
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - gem_cache:/usr/local/bundle/gems
+      - node_modules:/app/node_modules
+    env_file: .env
+    environment:
+      DATABASE_USER: ao3sql
+      DATABASE_PASSWORD: ao3sql
+      DATABASE_HOST: database
+      RAILS_ENV: development
+  database:
+    image: postgres:12.1
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      DATABASE_USER: ao3sql
+      DATABASE_PASSWORD: ao3sql
+    env_file:
+      - .env      
+
+volumes:
+  gem_cache:
+  db_data:
+  node_modules:
