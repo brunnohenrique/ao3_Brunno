@@ -1,18 +1,18 @@
-FROM ruby:2.7.2-alpine
+FROM ruby:2.7.2
 
 ENV BUNDLER_VERSION=2.1.4
 
-RUN apk add --update --no-cache bash build-base nodejs postgresql-dev tzdata ruby-dev yarn
-
-RUN gem install bundler -v 2.1.4
+RUN apt-get update -qq && apt-get install -y build-essential nodejs postgresql-client yarn
 
 WORKDIR /app
 
-COPY package.json yarn.lock ./
-RUN yarn install --check-files
+RUN gem install bundler -v 2.1.4
 
 COPY Gemfile Gemfile.lock ./
 RUN bundle check || bundle install
+
+COPY package.json yarn.lock ./
+RUN yarn install --check-files
 
 COPY . ./
 

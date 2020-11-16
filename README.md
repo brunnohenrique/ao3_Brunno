@@ -1,24 +1,27 @@
-# README
+# ao3_Brunno
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Teste feito para processo seletivo na AO3
 
-Things you may want to cover:
+# Configurações:
+ - Ruby 2.7.2
+ - Rails 6.0.2
+ - Postgresql 12
+ - Docker
+ 
+  # Instruções para iniciar a aplicação via docker:
+ ```sh
+$ docker-compose up
+```
+Aplicação estará disponível em http://localhost:3000/
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Instruções para iniciar a aplicação sem docker:
+- Configurar .env com as variáveis de acordo com o exemplo `.env.sample`
+ ```sh
+$ bundle install
+$ yarn install
+$ rails db:setup
+```
+# Como executar suite de testes:
+ ```sh
+$ bundle exec rspec spec
+```

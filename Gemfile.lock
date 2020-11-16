@@ -309,7 +309,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   pry-rails (>= 0.3)
   puma (~> 4.1)
-  rails (~> 6.0.3, >= 6.0.3.4)
+  rails (~> 6.0, >= 6.0.3.4)
   rails-controller-testing
   responders
   rspec-rails (~> 4.0.1)
